@@ -40,7 +40,7 @@ export default function RootLayout({
             <footer className="border-t border-border-primary bg-bg-secondary mt-auto">
               <div className="max-w-7xl mx-auto px-4 py-6 text-center">
                 <p className="text-sm text-text-muted font-mono">
-                  Made with ❤️ in Redmond Washington • Contribute on <a href="https://github.com/WaffleThief123/publictransit-systems" target="_blank" rel="noopener noreferrer" className="text-accent-primary hover:underline">GitHub!</a>
+                  Made with ❤️ in Redmond Washington • Contribute on <a href="https://github.com/imjustafox/publictransit-systems" target="_blank" rel="noopener noreferrer" className="text-accent-primary hover:underline">GitHub!</a>
                 </p>
               </div>
             </footer>
