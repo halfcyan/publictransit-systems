@@ -23,16 +23,16 @@ A comprehensive information resource about public transit systems worldwide, fea
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Start development server
-npm run dev
+pnpm dev
 
 # Build for production
-npm run build
+pnpm build
 
 # Run production server
-npm run start
+pnpm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view the app.

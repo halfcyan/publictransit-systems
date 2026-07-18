@@ -2,6 +2,7 @@
   "name": "transit-incidents-worker",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@11.9.0",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
