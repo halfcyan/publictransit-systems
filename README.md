@@ -56,7 +56,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
     /search               # Search components
   /lib                    # Utilities and data loading
 
-/data/systems             # Transit system data (JSON)
+/data/systems             # Transit system data (JSON or Pkl)
   /wmata                  # Washington Metro
   /sound-transit          # Seattle Link Light Rail
   /bart                   # San Francisco BART
@@ -65,11 +65,11 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 ## Adding a New System
 
 1. Create a directory under `data/systems/{system-id}/`
-2. Add four JSON files:
-   - `system.json` - System overview and stats
-   - `lines.json` - Lines with colors, termini, route topology, lengths
-   - `stations.json` - Stations with coordinates and features
-   - `railcars.json` - Railcar specifications
+2. Add four data files, using either `.json` or `.pkl` for each file:
+   - `system.json` / `system.pkl` - System overview and stats
+   - `lines.json` / `lines.pkl` - Lines with colors, termini, route topology, lengths
+   - `stations.json` / `stations.pkl` - Stations with coordinates and features
+   - `railcars.json` / `railcars.pkl` - Railcar specifications
 3. The system will automatically appear on the home page
 
 ## Environment Variables

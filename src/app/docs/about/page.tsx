@@ -87,11 +87,12 @@ export default function AboutPage() {
                 <TerminalLine>touch data/systems/your-system-id/lines.json</TerminalLine>
                 <TerminalLine>touch data/systems/your-system-id/stations.json</TerminalLine>
                 <TerminalLine>touch data/systems/your-system-id/railcars.json</TerminalLine>
+                <TerminalLine># .pkl files are also supported for any of these</TerminalLine>
               </Terminal>
             </div>
 
             <p className="text-sm text-text-secondary">
-              Follow the schema defined in existing system files. Submit corrections or additions
+              Follow the schema defined in existing system files. Data files can be JSON or Pkl. Submit corrections or additions
               via{" "}
               <a
                 href="https://github.com/imjustafox/publictransit-systems/issues"

@@ -1,5 +1,8 @@
+import { execFile } from "child_process";
 import { promises as fs } from "fs";
 import path from "path";
+import { promisify } from "util";
+import { getExePath } from "@pkl-community/pkl";
 import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 import type {
   TransitSystem,
@@ -13,24 +16,96 @@ import type {
 } from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "data", "systems");
+const execFileAsync = promisify(execFile);
 
 // Cache for loaded data
 const cache: Map<string, unknown> = new Map();
 
-async function loadJSON<T>(filePath: string): Promise<T> {
-  const cached = cache.get(filePath);
+type DataModule = {
+  cacheKey: string;
+  fullPath: string;
+  format: "json" | "pkl";
+};
+
+async function fileExists(filePath: string): Promise<boolean> {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function resolveDataModule(filePath: string): Promise<DataModule> {
+  const parsedPath = path.parse(filePath);
+  const extension = parsedPath.ext || ".json";
+  const basePath = path.join(parsedPath.dir, parsedPath.name);
+
+  if (extension !== ".json" && extension !== ".pkl") {
+    throw new Error(`Unsupported data file extension: ${extension}`);
+  }
+
+  const candidates: DataModule[] = [
+    {
+      cacheKey: `${basePath}.json`,
+      fullPath: path.join(DATA_DIR, `${basePath}.json`),
+      format: "json",
+    },
+    {
+      cacheKey: `${basePath}.pkl`,
+      fullPath: path.join(DATA_DIR, `${basePath}.pkl`),
+      format: "pkl",
+    },
+  ];
+
+  if (extension === ".pkl") {
+    candidates.reverse();
+  }
+
+  for (const candidate of candidates) {
+    if (await fileExists(candidate.fullPath)) {
+      return candidate;
+    }
+  }
+
+  throw new Error(`Data file not found: ${basePath}.json or ${basePath}.pkl`);
+}
+
+async function evaluatePkl<T>(fullPath: string): Promise<T> {
+  const { stdout } = await execFileAsync(
+    getExePath(),
+    [
+      "eval",
+      "--format",
+      "json",
+      "--color",
+      "never",
+      "--root-dir",
+      path.join(process.cwd(), "data"),
+      fullPath,
+    ],
+    { cwd: process.cwd(), maxBuffer: 20 * 1024 * 1024 }
+  );
+
+  return JSON.parse(stdout) as T;
+}
+
+async function loadData<T>(filePath: string): Promise<T> {
+  const dataModule = await resolveDataModule(filePath);
+  const cached = cache.get(dataModule.cacheKey);
   if (cached) return cached as T;
 
-  const fullPath = path.join(DATA_DIR, filePath);
-  const content = await fs.readFile(fullPath, "utf-8");
-  const data = JSON.parse(content) as T;
-  cache.set(filePath, data);
+  const data = dataModule.format === "json"
+    ? JSON.parse(await fs.readFile(dataModule.fullPath, "utf-8")) as T
+    : await evaluatePkl<T>(dataModule.fullPath);
+
+  cache.set(dataModule.cacheKey, data);
   return data;
 }
 
 // System data
 export async function getSystem(systemId: string): Promise<TransitSystem & { history: HistoryEvent[] }> {
-  return loadJSON(`${systemId}/system.json`);
+  return loadData(`${systemId}/system.json`);
 }
 
 export async function getAllSystems(): Promise<TransitSystem[]> {
@@ -51,7 +126,7 @@ export async function getAllSystems(): Promise<TransitSystem[]> {
 
 // Lines data
 export async function getLines(systemId: string): Promise<Line[]> {
-  const data = await loadJSON<{ lines: Line[] }>(`${systemId}/lines.json`);
+  const data = await loadData<{ lines: Line[] }>(`${systemId}/lines.json`);
   return data.lines.filter((line) => line.status !== "disabled");
 }
 
@@ -62,7 +137,7 @@ export async function getLine(systemId: string, lineId: string): Promise<Line | 
 
 // Stations data
 export async function getStations(systemId: string): Promise<Station[]> {
-  const data = await loadJSON<{ stations: Station[] }>(`${systemId}/stations.json`);
+  const data = await loadData<{ stations: Station[] }>(`${systemId}/stations.json`);
   return data.stations;
 }
 
@@ -86,7 +161,7 @@ export async function getStationsByStatus(
 
 // Railcars data
 export async function getRailcars(systemId: string): Promise<RailcarGeneration[]> {
-  const data = await loadJSON<{ generations: RailcarGeneration[] }>(`${systemId}/railcars.json`);
+  const data = await loadData<{ generations: RailcarGeneration[] }>(`${systemId}/railcars.json`);
   return data.generations;
 }
 
