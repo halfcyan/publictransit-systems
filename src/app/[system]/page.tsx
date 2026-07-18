@@ -9,6 +9,7 @@ import { StationCard } from "@/components/transit/StationCard";
 import { RailcarCard } from "@/components/transit/RailcarCard";
 import { SystemStats } from "@/components/transit/SystemStats";
 import { LineLength } from "@/components/transit/LineLength";
+import { formatTermini } from "@/lib/utils";
 
 interface PageProps {
   params: Promise<{ system: string }>;
@@ -186,13 +187,13 @@ export default async function SystemPage({ params }: PageProps) {
             {lines.map((line) => (
               <Link key={line.id} href={`/${systemId}/lines/${line.id}`}>
                 <Card hover className="flex items-center gap-3">
-                  <LineIndicator line={line} size="lg" linkable={false} />
+                  <LineIndicator line={line} size="lg" shape={system.lineIndicatorShape} linkable={false} />
                   <div className="flex-1 min-w-0">
                     <p className="font-mono font-medium text-text-primary truncate">
                       {line.name}
                     </p>
                     <p className="text-xs text-text-muted truncate">
-                      {line.termini[0]} ↔ {line.termini[1]}
+                      {formatTermini(line)}
                     </p>
                   </div>
                   <span className="text-xs font-mono text-text-muted shrink-0">
@@ -224,6 +225,7 @@ export default async function SystemPage({ params }: PageProps) {
                 station={station}
                 systemId={systemId}
                 lines={lines}
+                lineIndicatorShape={system.lineIndicatorShape}
                 compact
               />
             ))}

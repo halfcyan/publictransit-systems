@@ -4,6 +4,9 @@ export type StationStatus = "active" | "closed" | "under-construction" | "disabl
 export type RailcarStatus = "active" | "retired" | "testing";
 export type EntranceAccessibility = "elevator" | "escalator" | "stairs-only";
 export type DistanceUnit = "km" | "mi";
+export type TopologyType = "linear" | "loop" | "lollipop";
+export type LineIndicatorShape = "circle" | "square";
+export type ServicePattern = "full-time" | "alternating" | "peak-only" | "weekend-only" | "rush-hour";
 
 export interface StationEntrance {
   id: string;
@@ -35,6 +38,7 @@ export interface TransitSystem {
     primary: string;
     secondary: string;
   };
+  lineIndicatorShape?: LineIndicatorShape;
 }
 
 export interface SystemStats {
@@ -47,17 +51,35 @@ export interface SystemStats {
   distanceUnit: DistanceUnit;
 }
 
+export interface RouteBranch {
+  id: string;
+  name: string;
+  termini: string[];
+  branchStation: string;
+  servicePattern: ServicePattern;
+  description?: string;
+}
+
+export interface LineTopology {
+  type: TopologyType;
+  branches?: RouteBranch[];
+  loopStation?: string;
+  referenceStation?: string;
+}
+
 export interface Line {
   id: string;
   systemId: string;
   name: string;
   color: string;
   colorHex: string;
+  abbreviation?: string;
   opened?: string;
   status: StationStatus;
   stations?: string[];
   stationCount?: number;
-  termini: [string, string] | [];
+  termini: string[];
+  topology: LineTopology;
   length: number;
   description: string;
 }
