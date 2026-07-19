@@ -14,13 +14,12 @@ interface PageProps {
 export default async function LinesPage({ params }: PageProps) {
   const { system: systemId } = await params;
 
-  try {
-    const [system, lines] = await Promise.all([
-      getSystem(systemId),
-      getLines(systemId),
-    ]);
+  const [system, lines] = await Promise.all([
+    getSystem(systemId),
+    getLines(systemId),
+  ]).catch(() => notFound());
 
-    return (
+  return (
       <div className="space-y-6">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm font-mono">
@@ -76,9 +75,6 @@ export default async function LinesPage({ params }: PageProps) {
             </Link>
           ))}
         </div>
-      </div>
-    );
-  } catch {
-    notFound();
-  }
+    </div>
+  );
 }

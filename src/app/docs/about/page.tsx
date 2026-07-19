@@ -7,9 +7,7 @@ export default function AboutPage() {
       <section className="space-y-4">
         <Terminal title="about.md" scanline>
           <TerminalLine>cat about.md</TerminalLine>
-          <TerminalOutput>
-            Transit Systems Information Platform v1.0.0
-          </TerminalOutput>
+          <TerminalOutput>Transit Systems Information Platform v1.0.0</TerminalOutput>
         </Terminal>
 
         <h1 className="text-4xl font-mono font-bold text-text-primary">
@@ -24,14 +22,15 @@ export default function AboutPage() {
         </CardHeader>
         <CardContent>
           <p className="text-text-secondary leading-relaxed mb-4">
-            PublicTransit.Systems is a comprehensive information platform for public transit systems worldwide.
-            Built with a terminal-inspired aesthetic, it provides detailed data about metro systems,
-            light rail, and rapid transit networks including stations, lines, railcars, and historical information.
+            PublicTransit.Systems is a comprehensive information platform for public transit systems
+            worldwide. Built with a terminal-inspired aesthetic, it provides detailed data about
+            metro systems, light rail, and rapid transit networks including stations, lines,
+            railcars, and historical information.
           </p>
           <p className="text-text-secondary leading-relaxed">
-            The platform emphasizes data density, technical precision, and a unique visual style that
-            appeals to transit enthusiasts, urban planners, developers, and anyone interested in
-            public transportation infrastructure.
+            The platform emphasizes data density, technical precision, and a unique visual style
+            that appeals to transit enthusiasts, urban planners, developers, and anyone interested
+            in public transportation infrastructure.
           </p>
         </CardContent>
       </Card>
@@ -80,7 +79,7 @@ export default function AboutPage() {
             </p>
 
             <div>
-              <h4 className="font-mono text-sm text-accent-primary mb-2">Adding New Systems</h4>
+              <h3 className="font-mono text-sm text-accent-primary mb-2">Adding New Systems</h3>
               <Terminal>
                 <TerminalLine>mkdir -p data/systems/your-system-id</TerminalLine>
                 <TerminalLine>touch data/systems/your-system-id/system.json</TerminalLine>
@@ -97,19 +96,20 @@ export default function AboutPage() {
                 href="https://github.com/imjustafox/publictransit-systems/issues"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-accent-primary hover:underline"
+                className="text-accent-primary underline underline-offset-2 hover:no-underline"
               >
                 GitHub issues
-              </a>
-              {" "}or{" "}
+              </a>{" "}
+              or{" "}
               <a
                 href="https://github.com/imjustafox/publictransit-systems/pulls"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-accent-primary hover:underline"
+                className="text-accent-primary underline underline-offset-2 hover:no-underline"
               >
                 pull requests
-              </a>.
+              </a>
+              .
             </p>
           </div>
         </CardContent>
@@ -123,37 +123,38 @@ export default function AboutPage() {
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              <h4 className="font-mono text-sm text-accent-primary">✓ System Profiles</h4>
+              <h3 className="font-mono text-sm text-accent-primary">✓ System Profiles</h3>
               <p className="text-sm text-text-secondary">
-                Detailed information about each transit system including stats, history, and infrastructure
+                Detailed information about each transit system including stats, history, and
+                infrastructure
               </p>
             </div>
             <div className="space-y-2">
-              <h4 className="font-mono text-sm text-accent-primary">✓ Station Database</h4>
+              <h3 className="font-mono text-sm text-accent-primary">✓ Station Database</h3>
               <p className="text-sm text-text-secondary">
                 Complete station listings with coordinates, amenities, and line connections
               </p>
             </div>
             <div className="space-y-2">
-              <h4 className="font-mono text-sm text-accent-primary">✓ Line Information</h4>
+              <h3 className="font-mono text-sm text-accent-primary">✓ Line Information</h3>
               <p className="text-sm text-text-secondary">
                 Route details, termini, lengths, and official colors for all lines
               </p>
             </div>
             <div className="space-y-2">
-              <h4 className="font-mono text-sm text-accent-primary">✓ Railcar Fleet Data</h4>
+              <h3 className="font-mono text-sm text-accent-primary">✓ Railcar Fleet Data</h3>
               <p className="text-sm text-text-secondary">
                 Technical specifications and history of rolling stock across systems
               </p>
             </div>
             <div className="space-y-2">
-              <h4 className="font-mono text-sm text-accent-primary">✓ Command Palette</h4>
+              <h3 className="font-mono text-sm text-accent-primary">✓ Command Palette</h3>
               <p className="text-sm text-text-secondary">
                 Fast keyboard-driven search across all systems, stations, lines, and railcars
               </p>
             </div>
             <div className="space-y-2">
-              <h4 className="font-mono text-sm text-accent-primary">✓ System Comparison</h4>
+              <h3 className="font-mono text-sm text-accent-primary">✓ System Comparison</h3>
               <p className="text-sm text-text-secondary">
                 Side-by-side analysis tools with metrics and visualizations
               </p>
@@ -169,7 +170,8 @@ export default function AboutPage() {
         </CardHeader>
         <CardContent>
           <p className="text-text-secondary mb-4">
-            PublicTransit.Systems is fully open source. Browse the code, report issues, or contribute on GitHub.
+            PublicTransit.Systems is fully open source. Browse the code, report issues, or
+            contribute on GitHub.
           </p>
           <a
             href="https://github.com/imjustafox/publictransit-systems"
@@ -189,8 +191,8 @@ export default function AboutPage() {
       <Card>
         <CardContent>
           <p className="text-sm text-text-muted font-mono">
-            © 2026 PublicTransit.Systems • Data compiled from public sources •
-            Built with Next.js and TypeScript
+            © 2026 PublicTransit.Systems • Data compiled from public sources • Built with Next.js
+            and TypeScript
           </p>
         </CardContent>
       </Card>

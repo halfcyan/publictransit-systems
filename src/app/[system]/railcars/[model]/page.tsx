@@ -15,11 +15,10 @@ export default async function RailcarDetailPage({ params }: PageProps) {
   // Decode model ID if it's URL-encoded
   const decodedModelId = decodeURIComponent(modelId);
 
-  try {
-    const [system, railcar] = await Promise.all([
-      getSystem(systemId),
-      getRailcar(systemId, decodedModelId),
-    ]);
+  const [system, railcar] = await Promise.all([
+    getSystem(systemId),
+    getRailcar(systemId, decodedModelId),
+  ]).catch(() => notFound());
 
     if (!railcar) {
       notFound();
@@ -185,9 +184,6 @@ export default async function RailcarDetailPage({ params }: PageProps) {
             </div>
           </CardContent>
         </Card>
-      </div>
-    );
-  } catch {
-    notFound();
-  }
+    </div>
+  );
 }

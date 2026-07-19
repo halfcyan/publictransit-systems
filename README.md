@@ -33,6 +33,15 @@ pnpm build
 
 # Run production server
 pnpm start
+
+# Run accessibility tests
+pnpm test:accessibility
+
+# Check linting
+pnpm linting
+
+# Format files
+pnpm format
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view the app.

@@ -20,13 +20,12 @@ export default async function StationDetailPage({ params }: PageProps) {
   // Decode station ID if it's URL-encoded
   const decodedStationId = decodeURIComponent(stationId);
 
-  try {
-    const [system, station, lines, outages] = await Promise.all([
-      getSystem(systemId),
-      getStation(systemId, decodedStationId),
-      getLines(systemId),
-      getStationOutages(systemId, decodedStationId),
-    ]);
+  const [system, station, lines, outages] = await Promise.all([
+    getSystem(systemId),
+    getStation(systemId, decodedStationId),
+    getLines(systemId),
+    getStationOutages(systemId, decodedStationId),
+  ]).catch(() => notFound());
 
     if (!station) {
       notFound();
@@ -217,9 +216,6 @@ export default async function StationDetailPage({ params }: PageProps) {
             </CardContent>
           </Card>
         )}
-      </div>
-    );
-  } catch {
-    notFound();
-  }
+    </div>
+  );
 }

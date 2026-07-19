@@ -18,14 +18,13 @@ interface PageProps {
 export default async function SystemPage({ params }: PageProps) {
   const { system: systemId } = await params;
 
-  try {
-    const [system, lines, stations, railcars, incidents] = await Promise.all([
-      getSystem(systemId),
-      getLines(systemId),
-      getStations(systemId),
-      getRailcars(systemId),
-      getIncidents(systemId),
-    ]);
+  const [system, lines, stations, railcars, incidents] = await Promise.all([
+    getSystem(systemId),
+    getLines(systemId),
+    getStations(systemId),
+    getRailcars(systemId),
+    getIncidents(systemId),
+  ]).catch(() => notFound());
 
     const activeStations = stations.filter((s) => s.status === "active").length;
     const activeRailcars = railcars.filter((r) => r.status === "active");
@@ -294,9 +293,6 @@ export default async function SystemPage({ params }: PageProps) {
             </Card>
           </section>
         )}
-      </div>
-    );
-  } catch {
-    notFound();
-  }
+    </div>
+  );
 }

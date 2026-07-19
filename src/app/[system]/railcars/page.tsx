@@ -10,11 +10,10 @@ interface PageProps {
 export default async function RailcarsPage({ params }: PageProps) {
   const { system: systemId } = await params;
 
-  try {
-    const [system, railcars] = await Promise.all([
-      getSystem(systemId),
-      getRailcars(systemId),
-    ]);
+  const [system, railcars] = await Promise.all([
+    getSystem(systemId),
+    getRailcars(systemId),
+  ]).catch(() => notFound());
 
     const activeRailcars = railcars.filter((r) => r.status === "active");
     const retiredRailcars = railcars.filter((r) => r.status === "retired");
@@ -115,9 +114,6 @@ export default async function RailcarsPage({ params }: PageProps) {
             </div>
           </section>
         )}
-      </div>
-    );
-  } catch {
-    notFound();
-  }
+    </div>
+  );
 }

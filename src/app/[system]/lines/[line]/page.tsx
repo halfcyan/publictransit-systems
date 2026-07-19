@@ -18,13 +18,12 @@ export default async function LineDetailPage({ params }: PageProps) {
   // Decode line ID if it's URL-encoded
   const decodedLineId = decodeURIComponent(lineId);
 
-  try {
-    const [system, line, allLines, stations] = await Promise.all([
-      getSystem(systemId),
-      getLine(systemId, decodedLineId),
-      getLines(systemId),
-      getStationsByLine(systemId, decodedLineId),
-    ]);
+  const [system, line, allLines, stations] = await Promise.all([
+    getSystem(systemId),
+    getLine(systemId, decodedLineId),
+    getLines(systemId),
+    getStationsByLine(systemId, decodedLineId),
+  ]).catch(() => notFound());
 
     if (!line) {
       notFound();
@@ -151,9 +150,6 @@ export default async function LineDetailPage({ params }: PageProps) {
             ))}
           </div>
         </section>
-      </div>
-    );
-  } catch {
-    notFound();
-  }
+    </div>
+  );
 }
