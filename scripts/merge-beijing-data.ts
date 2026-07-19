@@ -113,9 +113,7 @@ function mergeEntrances(base: Entrance[], overlay: Entrance[]): Entrance[] {
       }
       // Merge features
       if (e.features) {
-        existing.features = [
-          ...new Set([...(existing.features || []), ...e.features]),
-        ];
+        existing.features = [...new Set([...(existing.features || []), ...e.features])];
       }
     } else {
       byId.set(e.id, { ...e });
@@ -134,7 +132,7 @@ function mergeElevators(base: Elevator[], overlay: Elevator[]): Elevator[] {
       if (!existing.coordinates || !e.coordinates) return false;
       const dist = Math.sqrt(
         Math.pow(existing.coordinates.lat - e.coordinates.lat, 2) +
-        Math.pow(existing.coordinates.lng - e.coordinates.lng, 2)
+          Math.pow(existing.coordinates.lng - e.coordinates.lng, 2)
       );
       return dist < 0.0001; // ~10 meters
     });
@@ -237,7 +235,10 @@ async function main() {
 
     // Create base station
     const station: Station = {
-      id: mapping.localName.toLowerCase().replace(/\s+/g, "-").replace(/[()（）]/g, ""),
+      id: mapping.localName
+        .toLowerCase()
+        .replace(/\s+/g, "-")
+        .replace(/[()（）]/g, ""),
       systemId: "beijing-subway",
       name: mapping.name,
       localName: mapping.localName,
@@ -296,18 +297,12 @@ async function main() {
 
       // Merge entrances
       if (baseStation.entrances && baseStation.entrances.length > 0) {
-        station.entrances = mergeEntrances(
-          station.entrances || [],
-          baseStation.entrances
-        );
+        station.entrances = mergeEntrances(station.entrances || [], baseStation.entrances);
       }
 
       // Merge elevators
       if (baseStation.elevators && baseStation.elevators.length > 0) {
-        station.elevators = mergeElevators(
-          station.elevators || [],
-          baseStation.elevators
-        );
+        station.elevators = mergeElevators(station.elevators || [], baseStation.elevators);
       }
 
       // Merge escalator locations
@@ -335,19 +330,12 @@ async function main() {
   const withCoords = merged.filter((s) => s.coordinates).length;
   const withEntrances = merged.filter((s) => s.entrances && s.entrances.length > 0).length;
   const entrancesWithCoords = merged.reduce(
-    (sum, s) =>
-      sum + (s.entrances?.filter((e) => e.coordinates).length || 0),
+    (sum, s) => sum + (s.entrances?.filter((e) => e.coordinates).length || 0),
     0
   );
-  const totalEntrances = merged.reduce(
-    (sum, s) => sum + (s.entrances?.length || 0),
-    0
-  );
+  const totalEntrances = merged.reduce((sum, s) => sum + (s.entrances?.length || 0), 0);
   const withElevators = merged.filter((s) => s.elevators && s.elevators.length > 0).length;
-  const totalElevators = merged.reduce(
-    (sum, s) => sum + (s.elevators?.length || 0),
-    0
-  );
+  const totalElevators = merged.reduce((sum, s) => sum + (s.elevators?.length || 0), 0);
   const transfers = merged.filter((s) => s.features.includes("transfer")).length;
 
   // Lines breakdown
