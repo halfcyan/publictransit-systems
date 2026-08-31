@@ -116,7 +116,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "10th & Osage Station serves a residential area of Denver with the exception of the Buckhorn Exchange. It is the norhternmost station of the Central Corridor."
+    description = "10th / Osage Station serves a residential area of Denver and is the northernmost station of the Central Corridor."
   }
   new {
     id = "13th-ave-station"
@@ -134,7 +134,7 @@ stations = new Listing {
     features = new Listing {
       "fare-vending"
     }
-    description = "TODO: Add station description."
+    description = "13th Ave Station serves Aurora and is planned to be the center of a future transit-oriented development."
   }
   new {
     id = "16th-california"
@@ -155,7 +155,7 @@ stations = new Listing {
       "bus-connection"
       "transfer"
     }
-    description = "16th & California Station is one of two stations along 16th St. It serves only southbound trains."
+    description = "16th & California Station is one of two stations along 16th Street. It has no active rail service while the D, H, and L Lines are suspended."
   }
   new {
     id = "16th-stout-station"
@@ -176,7 +176,7 @@ stations = new Listing {
       "bus-connection"
       "transfer"
     }
-    description = "16th & Stout Station is one of two stations along 16th St. It serves only southbound trains."
+    description = "16th & Stout Station is one of two stations along 16th Street. It has no active rail service while the D, H, and L Lines are suspended."
   }
   new {
     id = "18th-california"
@@ -197,7 +197,7 @@ stations = new Listing {
       "bus-connection"
       "transfer"
     }
-    description = "18th & California Station is one of two stations along 18th St. It is the terminus for southbound D and H Line trains."
+    description = "18th & California Station is one of two stations along 18th Street. It has no active rail service while the D, H, and L Lines are suspended."
   }
   new {
     id = "18th-stout-station"
@@ -213,7 +213,7 @@ stations = new Listing {
       "fare-vending"
       "transfer"
     }
-    description = "18th & Stout Station is one of two stations along 18th St. It is the terminus for southbound D and H Line trains."
+    description = "18th & Stout Station is one of two stations along 18th Street. It has no active rail service while the D, H, and L Lines are suspended."
   }
   new {
     id = "20th-welton-station"
@@ -226,7 +226,7 @@ stations = new Listing {
     features = new Listing {
       "fare-vending"
     }
-    description = "20th & Welton Station is a light rail station in downtown Denver, east of the downtown loop."
+    description = "20th & Welton Station is a light rail station in downtown Denver, east of the Downtown loop."
   }
   new {
     id = "25th-welton-station"
@@ -239,7 +239,7 @@ stations = new Listing {
     features = new Listing {
       "fare-vending"
     }
-    description = "25th & Welton Station is a light rail station in downtown Denver, east of the downtown loop."
+    description = "25th & Welton Station is a light rail station in downtown Denver, east of the Downtown loop."
   }
   new {
     id = "27th-welton-station"
@@ -252,7 +252,7 @@ stations = new Listing {
     features = new Listing {
       "fare-vending"
     }
-    description = "27th & Welton Station is a light rail station in downtown Denver, east of the downtown loop."
+    description = "27th & Welton Station is a light rail station in downtown Denver, east of the Downtown loop."
   }
   new {
     id = "2nd-ave-abilene-station"
@@ -375,7 +375,7 @@ stations = new Listing {
     features = new Listing {
       "fare-vending"
     }
-    description = "30th & Downing Station is a light rail station in downtown Denver. It serves as the terminus for the L Line."
+    description = "30th & Downing Station is a light rail station in Denver and the L Line terminus. It has no active rail service while the L Line is suspended."
   }
   new {
     id = "38th-blake-station"
@@ -443,7 +443,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "38th & Blake Station serves the Five Points neighborhood of Denver, including RiNo. It has an art installation named Conflux/Redox by Kelton Osborn."
+    description = "38th / Blake Station serves the Five Points neighborhood of Denver, including RiNo. It has an art installation named Conflux/Redox by Kelton Osborn."
   }
   new {
     id = "40th-airport-gateway-park-station"
@@ -464,7 +464,7 @@ stations = new Listing {
       "fare-vending"
     }
     osmId = 7373859146
-    description = "48th Ave & Airport Blvd-Gateway Park Station is a station serving Aurora. It has a massive park and ride with 1,079 spaces. It has an art installation named Time Present by Molly Dilworth."
+    description = "40th / Airport - Gateway Park Station serves Aurora. It has a large park-and-ride facility and an art installation, Time Present, by Molly Dilworth."
   }
   new {
     id = "40th-colorado-station"
@@ -483,7 +483,7 @@ stations = new Listing {
       "fare-vending"
     }
     osmId = 7373859141
-    description = "40th & Colorado Station serves the Elyria-Swansea neighborhood of Denver. It features an art installation named Hands On created by Erik Carlson."
+    description = "40th / Colorado Station serves the Elyria-Swansea neighborhood of Denver. It features an art installation named Hands On created by Erik Carlson."
   }
   new {
     id = "41st-fox-station"
@@ -535,7 +535,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "41st & Fox Station serves the Globeville and Sunnyside neighborhoods of Denver."
+    description = "41st / Fox Station serves the Globeville and Sunnyside neighborhoods of Denver."
   }
   new {
     id = "48th-ave-brighton-blvd-nat-l-western-ctr"
@@ -593,7 +593,7 @@ stations = new Listing {
     osmId = 6777872314
     wikidata = "Q24278813"
     wikipedia = "en:61st & Peña station"
-    description = "61st & Peña Station is the final station before Denver Airport Station and the final station in the local fare zone. It has parking that is paid with management by Denver International Airport."
+    description = "61st / Peña Station is the final station before Denver Airport Station and the last station in the local fare zone. Its parking is managed by Denver International Airport."
   }
   new {
     id = "alameda-station"
@@ -671,7 +671,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "Arapahoe at Village Center Station serves the Fiddler's Green Ampitheater and has an art installation of sculptures called Nucleus, created by Michael Clapper."
+    description = "Arapahoe at Village Center Station serves the Fiddler's Green Amphitheatre and has an art installation, Nucleus, by Michael Clapper."
   }
   new {
     id = "arvada-ridge-station"
@@ -881,7 +881,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "Auraria West Station serves the Auraria Campus, home to the Community College of Denver, Metropolitan State University Denver, and the University of Colorado at Denver."
+    description = "Auraria West Campus Station serves the Auraria Campus, home to the Community College of Denver, Metropolitan State University of Denver, and the University of Colorado Denver."
   }
   new {
     id = "aurora-metro-center-station"
@@ -1109,7 +1109,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "Aurora Metro Center Station serves the Town Center at Aurora mal and the Aurora Municipal center."
+    description = "Aurora Metro Center Station serves the Town Center at Aurora mall and the Aurora Municipal Center."
   }
   new {
     id = "ball-arena-elitch-gardens-station"
@@ -1260,7 +1260,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "Ball Arena / Elitch Gardens Station serves the area directly West of Union Station, including the Ball Arena and Elitch Gardens."
+    description = "Ball Arena / Elitch Gardens Station serves the area directly west of Union Station, including Ball Arena and Elitch Gardens."
   }
   new {
     id = "belleview-station"
@@ -1344,7 +1344,7 @@ stations = new Listing {
       "bus-connection"
       "transfer"
     }
-    description = "Colfax at Auraria Station serves the east end of the Aruaria campus."
+    description = "Colfax at Auraria Station serves the east end of the Auraria Campus."
   }
   new {
     id = "colfax-station"
@@ -1478,7 +1478,7 @@ stations = new Listing {
     features = new Listing {
       "fare-vending"
     }
-    description = "Commerce City / 72nd Station serves a primarily industrial area with some bus lines."
+    description = "Commerce City / 72nd Ave Station serves a primarily industrial area with some bus connections."
   }
   new {
     id = "county-line-station"
@@ -2378,7 +2378,7 @@ stations = new Listing {
     features = new Listing {
       "fare-vending"
     }
-    description = "Eastlake / 124th Ave Stationserves as the terminus for the N Line."
+    description = "Eastlake / 124th Ave Station serves as the terminus for the N Line."
   }
   new {
     id = "empower-field-at-mile-high"
@@ -2816,7 +2816,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "Fitzsimons Station serves the University of Colorado Anschutz. It retains the name from the former Fitzsions Army Medical Center."
+    description = "Fitzsimons Station serves the University of Colorado Anschutz Medical Campus. It retains the name of the former Fitzsimons Army Medical Center."
   }
   new {
     id = "florida-station"
@@ -2850,7 +2850,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "Florida Station is the transfer point for R Line passengers to continue towards downtown Denver, and for H Line passengers to continue towards Denver Airport."
+    description = "Florida Station is served by the R Line. H Line service is suspended during the Downtown Rail Reconstruction Project."
   }
   new {
     id = "garrison-station"
@@ -2894,7 +2894,7 @@ stations = new Listing {
       "transfer"
     }
     osmId = 1359644378
-    description = "I-25 & Broadway Station was originally the southern terminus of the RTD rail network. Following the T-REX project, it became a large transfer point between the D, E, and H Lines, propelling it to the 3rd most used RTD station. It has three sculptures collectively titled The Welcoming Committee, which is an art installation created by Elaine Calzolari. It has a planned pedestrian bridge west from the station that would have the longest unsupported truss in the state."
+    description = "I-25 / Broadway Station was originally the southern terminus of the RTD rail network. During the Downtown Rail Reconstruction Project, it is served by the C, E, and temporary T Lines. It has three sculptures collectively titled The Welcoming Committee, created by Elaine Calzolari."
   }
   new {
     id = "iliff-station"
@@ -3189,7 +3189,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "Littleton-Downtown Station serves downtown Littleton. It was historically a depoy for the Denver & Rio Grande Railroad's Royal Gorge Route. The depot building was converted into a coffee shop which was open from 2000-2020 and 2022-2024."
+    description = "Littleton / Downtown Station serves downtown Littleton. It was historically a depot for the Denver & Rio Grande Railroad's Royal Gorge Route."
   }
   new {
     id = "littleton-mineral-station"
@@ -3569,7 +3569,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "Peoria Station is a junction along the A Line and serving as the northern terminus of the R Line. It is the first A Line connection to Aurora. It has an art installation named Biota created by Blessing Hancock."
+    description = "Peoria Station is a junction on the A Line and serves as the northern terminus of the R Line. It is the first A Line connection to Aurora. It has an art installation named Biota by Blessing Hancock."
   }
   new {
     id = "perry-station"
@@ -3705,7 +3705,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "RidgeGate Parkway Station is planned to serve the RidgeGate development, which is a massive mixed-use community spanning 3,500 acres."
+    description = "Ridgegate Parkway Station is planned to serve the Ridgegate development, a large mixed-use community spanning 3,500 acres."
   }
   new {
     id = "sheridan-station"
@@ -5102,7 +5102,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "University of Denver Station serves the Univerity of Denver and the surrounding University Park neighborhood."
+    description = "University of Denver Station serves the University of Denver and the surrounding University Park neighborhood."
   }
   new {
     id = "westminster-station"
@@ -5153,7 +5153,7 @@ stations = new Listing {
       "fare-vending"
     }
     osmId = 7373797407
-    description = "Wheat Ridge / Ward Station serves the West side of Wheat Ridge. It serves as the proposed site of a major transit-oriented development."
+    description = "Wheat Ridge / Ward Station serves the west side of Wheat Ridge. It is the proposed site of a major transit-oriented development."
   }
   new {
     id = "yale-station"

@@ -8,7 +8,10 @@
       "colorHex": "#54C0E8",
       "opened": "2016-04-22",
       "status": "active",
-      "termini": ["Union Station", "Denver Airport Station"],
+      "termini": [
+        "Union Station",
+        "Denver Airport Station"
+      ],
       "length": 23.5,
       "stationCount": 8,
       "description": "The A Line is a commuter rail line that connects Downtown Denver to Denver Airport through Aurora."
@@ -21,10 +24,13 @@
       "colorHex": "#4C9C2E",
       "opened": "2016-07-25",
       "status": "active",
-      "termini": ["Union Station", "Westminster Station"],
+      "termini": [
+        "Union Station",
+        "Westminster Station"
+      ],
       "length": 6.2,
       "stationCount": 4,
-      "description": "The B line is a commuter rail line that connects Union Station to Westminster Station. It is not fully complete, with the full journey taking only about 15 minutes, with an additional 6 stations planned to serve Broomfield, Louisville, Boulder, and Longmont."
+      "description": "The B Line is a commuter rail line that connects Union Station to Westminster Station. It is not fully complete, with the full journey taking only about 15 minutes and an additional six stations planned to serve Broomfield, Louisville, Boulder, and Longmont."
     },
     {
       "id": "c-line",
@@ -34,9 +40,12 @@
       "colorHex": "#F6871F",
       "opened": "2026-06-07",
       "status": "active",
-      "termini": ["Union Station", "Littleton-Mineral"],
+      "termini": [
+        "Union Station",
+        "Littleton-Mineral Station"
+      ],
       "stationCount": 12,
-      "description": "The C Line is a temporary line operating between Union Station and Littleton-Mineral station to take the place of the D line during the Downtown Rail Resconstruction Project. Historically, it operated between Union Station and I-25 & Broadway station most of the time, with service to Littleton-Mineral station during peak hours and sporting events. In 2021, the C Line ceased operation."
+      "description": "The C Line is a temporary line operating between Union Station and Littleton-Mineral Station in place of the D Line during the Downtown Rail Reconstruction Project. Historically, it operated between Union Station and I-25 / Broadway Station most of the time, with service to Littleton-Mineral Station during peak hours and sporting events. The C Line ceased operation in 2021."
     },
     {
       "id": "d-line",
@@ -46,9 +55,13 @@
       "colorHex": "#047835",
       "opened": "1994-10-07",
       "status": "under-construction",
-      "termini": ["18th & California Station", "18th & Stout Station", "Littleton-Mineral"],
-      "stationCount": 12,
-      "description": "The D Line, formerly known as Route 101, is a light rail line that was the first and only line in the RTD rail system until 2002. It previously served from Five Points to Mineral Avenue Station, but its northern terminus has since been moved to 18th Street, either at 18th & California or 18th & Stout, depending on the direction."
+      "termini": [
+        "18th & California Station",
+        "18th & Stout Station",
+        "Littleton-Mineral Station"
+      ],
+      "stationCount": 14,
+      "description": "The D Line, formerly known as Route 101, was the first and only line in the RTD rail system until 2002. Before its temporary suspension for the Downtown Rail Reconstruction Project, it operated between the 18th Street stations and Littleton-Mineral Station."
     },
     {
       "id": "e-line",
@@ -58,9 +71,12 @@
       "colorHex": "#691F74",
       "opened": "2006-11-17",
       "status": "active",
-      "temini": ["Union Station", "RidgeGate Parkway"],
-      "stationCount": 21,
-      "description": "The E Line is a light rail line that runs south along I-25 through Denver, Greenwood Village, Centennial, and Lone Tree. It runs along the Southeast Corridor from Union Station to RidgeGate Parkway. North of I-225, it runs alongside the H Line, with service alongside the R Line South of I-225 to Lincoln. It continues alone to RidgeGate Parkway."
+      "stationCount": 22,
+      "description": "The E Line runs south along I-25 through Denver, Greenwood Village, Centennial, and Lone Tree, from Union Station to RidgeGate Parkway. During the Downtown Rail Reconstruction Project, it shares the southeast corridor with the temporarily extended R Line from I-225 to RidgeGate Parkway.",
+      "termini": [
+        "Union Station",
+        "Ridgegate Parkway Station"
+      ]
     },
     {
       "id": "g-line",
@@ -70,10 +86,13 @@
       "colorHex": "#F4B223",
       "opened": "2019-04-26",
       "status": "active",
-      "termini": ["Union Station", "Wheat Ridge/Ward Station"],
+      "termini": [
+        "Union Station",
+        "Wheat Ridge / Ward Station"
+      ],
       "length": 11.2,
       "stationCount": 8,
-      "description": "The G Line, also known as the Gold Line, is the newest RTD line. It is a commuter rail line that runs between Union Station and Wheat Ridge/Ward Station, serving Arvada and Wheat Ridge."
+      "description": "The G Line, also known as the Gold Line, is a commuter rail line that runs between Union Station and Wheat Ridge / Ward Station, serving Arvada and Wheat Ridge."
     },
     {
       "id": "t-line",
@@ -83,9 +102,12 @@
       "colorHex": "#CE0E2D",
       "opened": "2026-06-07",
       "status": "active",
-      "termini": ["I-25 & Broadway Station", "Lincoln Station"],
-      "stationCount": 6,
-      "description": "The T Line, also known as the temporary line, is a line that RTD uses during construction projects. In 2026, during the Downtown Rail Reconstruction Project, the T line operates between I-25 & Broadway Station and Lincoln Station, taking place of the suspended D Line."
+      "termini": [
+        "I-25 / Broadway Station",
+        "Lincoln Station"
+      ],
+      "stationCount": 12,
+      "description": "The T Line is a temporary light rail line operating between I-25 & Broadway Station and Lincoln Station during the Downtown Rail Reconstruction Project, while the D, H, and L Lines are suspended."
     },
     {
       "id": "n-line",
@@ -95,10 +117,13 @@
       "colorHex": "#904199",
       "opened": "2020-9-21",
       "status": "active",
-      "termini": ["Union Station", "Eastlake/124th Station"],
+      "termini": [
+        "Union Station",
+        "Eastlake / 124th Ave"
+      ],
       "length": 13,
       "stationCount": 7,
-      "description": "The N Line, also known as the North Metro Rail Line, is a commuter rail line that runs from Union Station through Commerce City, Thornton, and Northglenn, terminating at Eastlake/124th Station. It has a proposed extension that would add two stations and 5.5mi of track further into Thornton, terminating at North Thornton/Hwy 7 Station."
+      "description": "The N Line, also known as the North Metro Rail Line, is a commuter rail line that runs from Union Station through Commerce City, Thornton, and Northglenn, terminating at Eastlake / 124th Ave. It has a proposed extension that would add two stations and 5.5 mi of track further into Thornton, terminating at North Thornton/Hwy 7 Station."
     },
     {
       "id": "r-line",
@@ -108,9 +133,12 @@
       "colorHex": "#C1D32F",
       "opened": "2017-02-24",
       "status": "active",
-      "termini": ["Peoria Station", "RidgeGate Parkway"],
-      "stationCount": 16,
-      "description": "The R Line, also called the Aurora Line or I-225 Rail, is a light rail line that originally opened as the G line in 2006. Due to low ridership, its service was discontinued in 2009. As part of the voter-approved FasTracks program, new rail was installed along I-225 from Peoria Station to Nine Mile Station. The R line was then created to run between Peoria Station, with connection to the A Line, through Aurora, terminating at Lincoln Station. During the Downtown Rail Reconsturction Project, the R line was temporarily extended to RidgeGate Parkway."
+      "termini": [
+        "Peoria Station",
+        "Ridgegate Parkway Station"
+      ],
+      "stationCount": 19,
+      "description": "The R Line, also called the Aurora Line or I-225 Rail, originally opened as the G Line in 2006. Due to low ridership, service was discontinued in 2009. As part of the voter-approved FasTracks program, new rail was installed along I-225 from Peoria Station to Nine Mile Station. The R Line was then created to run between Peoria Station, with a connection to the A Line, through Aurora to Lincoln Station. During the Downtown Rail Reconstruction Project, the R Line was temporarily extended to Ridgegate Parkway Station."
     },
     {
       "id": "w-line",
@@ -120,10 +148,13 @@
       "colorHex": "#0091B3",
       "opened": "2013-04-26",
       "status": "active",
-      "termini": ["Union Station", "Jefferson County Government Center-Golden Station"],
+      "termini": [
+        "Union Station",
+        "Jefferson County Government Center/Golden Station"
+      ],
       "length": 12.1,
       "stationCount": 15,
-      "description": "The W Line, also called the West Line, is a light rail line that serves the Central Platte Valley corridor, including West Denver, Lakewood, and Golden. Its service originally began in 1893 with the Denver, Lakewood and Golden Railroad, which discontinued service in the 1950s. RTD began construction on the resurrected W Line in 2008 and opened eight months ahead of schedule in April 2013. It"
+      "description": "The W Line, also called the West Line, serves the Central Platte Valley corridor, including west Denver, Lakewood, and Golden. Service on the corridor began in 1893 with the Denver, Lakewood and Golden Railroad, which ended in the 1950s. RTD began construction on the modern line in 2008; it opened eight months ahead of schedule in April 2013."
     },
     {
       "id": "h-line",
@@ -133,9 +164,13 @@
       "colorHex": "#0055B8",
       "opened": "2006-11-17",
       "status": "under-construction",
-      "termini": ["18th & California Station", "18th & Stout Station", "Florida Station"],
-      "stationCount": 16,
-      "description": "The H Line is a light rail line that was added to RTD through the completion of the Southeast Corridor. In 2017, it was expanded to Florida Station, originally terminating at Nine Mile Station."
+      "termini": [
+        "18th & California Station",
+        "18th & Stout Station",
+        "Florida Station"
+      ],
+      "stationCount": 20,
+      "description": "The H Line was added through completion of the Southeast Corridor and extended to Florida Station in 2017. It is temporarily suspended during the Downtown Rail Reconstruction Project."
     },
     {
       "id": "l-line",
@@ -145,9 +180,11 @@
       "colorHex": "#FFCD00",
       "opened": "2018-01-14",
       "status": "under-construction",
-      "termini": ["30th & Downing Station"],
-      "stationCount": 6,
-      "description": "The L line is a light rail line that runs through downtown Denver along a loop. When heading towards Denver, it runs from 30th & Downing along Welton Street to 19th Street. From there, it runs along Stout Street before looping back along California Street, before returning to 30th & Downing Station along Welton Street."
+      "termini": [
+        "30th & Downing Station"
+      ],
+      "stationCount": 10,
+      "description": "The L Line is temporarily suspended during the Downtown Rail Reconstruction Project. When operating, it runs through downtown Denver in a loop from 30th & Downing via Welton Street, 19th Street, Stout Street, and California Street."
     }
   ]
 }
