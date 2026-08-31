@@ -27,18 +27,26 @@
       "description": "The B line is a commuter rail line that connects Union Station to Westminster Station. It is not fully complete, with the full journey taking only about 15 minutes, with an additional 6 stations planned to serve Broomfield, Louisville, Boulder, and Longmont."
     },
     {
+      "id": "c-line",
+      "systemId": "rtd-denver",
+      "name": "C Line",
+      "color": "Orange",
+      "colorHex": "#F6871F",
+      "opened": "2026-06-07",
+      "status": "active",
+      "termini": ["Union Station", "Littleton-Mineral"],
+      "stationCount": 12,
+      "description": "The C Line is a temporary line operating between Union Station and Littleton-Mineral station to take the place of the D line during the Downtown Rail Resconstruction Project. Historically, it operated between Union Station and I-25 & Broadway station most of the time, with service to Littleton-Mineral station during peak hours and sporting events. In 2021, the C Line ceased operation."
+    },
+    {
       "id": "d-line",
       "systemId": "rtd-denver",
       "name": "D Line",
       "color": "Dark Green",
       "colorHex": "#047835",
       "opened": "1994-10-07",
-      "status": "active",
-      "termini": [
-        "18th & California Station",
-        "18th & Stout Station",
-        "Littleton-Mineral"
-      ],
+      "status": "under-construction",
+      "termini": ["18th & California Station", "18th & Stout Station", "Littleton-Mineral"],
       "stationCount": 12,
       "description": "The D Line, formerly known as Route 101, is a light rail line that was the first and only line in the RTD rail system until 2002. It previously served from Five Points to Mineral Avenue Station, but its northern terminus has since been moved to 18th Street, either at 18th & California or 18th & Stout, depending on the direction."
     },
@@ -68,32 +76,16 @@
       "description": "The G Line, also known as the Gold Line, is the newest RTD line. It is a commuter rail line that runs between Union Station and Wheat Ridge/Ward Station, serving Arvada and Wheat Ridge."
     },
     {
-      "id": "h-line",
+      "id": "t-line",
       "systemId": "rtd-denver",
-      "name": "H Line",
-      "color": "Blue",
-      "colorHex": "#0055B8",
-      "opened": "2006-11-17",
-      "status": "active",
-      "termini": [
-        "18th & California Station",
-        "18th & Stout Station",
-        "Florida Station"
-      ],
-      "stationCount": 16,
-      "description": "The H Line is a light rail line that was added to RTD through the completion of the Southeast Corridor. In 2017, it was expanded to Florida Station, originally terminating at Nine Mile Station."
-    },
-    {
-      "id": "l-line",
-      "systemId": "rtd-denver",
-      "name": "L Line",
+      "name": "T Line",
       "color": "Yellow",
-      "colorHex": "#FFCD00",
-      "opened": "2018-01-14",
+      "colorHex": "#CE0E2D",
+      "opened": "2026-06-07",
       "status": "active",
-      "termini": ["30th & Downing Station"],
+      "termini": ["I-25 & Broadway Station", "Lincoln Station"],
       "stationCount": 6,
-      "description": "The L line is a light rail line that runs through downtown Denver along a loop. When heading towards Denver, it runs from 30th & Downing along Welton Street to 19th Street. From there, it runs along Stout Street before looping back along California Street, before returning to 30th & Downing Station along Welton Street."
+      "description": "The T Line, also known as the temporary line, is a line that RTD uses during construction projects. In 2026, during the Downtown Rail Reconstruction Project, the T line operates between I-25 & Broadway Station and Lincoln Station, taking place of the suspended D Line."
     },
     {
       "id": "n-line",
@@ -116,13 +108,13 @@
       "colorHex": "#C1D32F",
       "opened": "2017-02-24",
       "status": "active",
-      "termini": ["Peoria Station", "Lincoln Station"],
+      "termini": ["Peoria Station", "RidgeGate Parkway"],
       "stationCount": 16,
-      "description": "The R Line, also called the Aurora Line or I-225 Rail, is a light rail line that originally opened as the G line in 2006. Due to low ridership, its service was discontinued in 2009. As part of the voter-approved FasTracks program, new rail was installed along I-225 from Peoria Station to Nine Mile Station. The R line was then created to run between Peoria Station, with connection to the A Line, through Aurora, terminating at Lincoln Station."
+      "description": "The R Line, also called the Aurora Line or I-225 Rail, is a light rail line that originally opened as the G line in 2006. Due to low ridership, its service was discontinued in 2009. As part of the voter-approved FasTracks program, new rail was installed along I-225 from Peoria Station to Nine Mile Station. The R line was then created to run between Peoria Station, with connection to the A Line, through Aurora, terminating at Lincoln Station. During the Downtown Rail Reconsturction Project, the R line was temporarily extended to RidgeGate Parkway."
     },
     {
       "id": "w-line",
-      "systemId":"rtd-denver",
+      "systemId": "rtd-denver",
       "name": "W Line",
       "color": "Teal",
       "colorHex": "#0091B3",
@@ -132,6 +124,30 @@
       "length": 12.1,
       "stationCount": 15,
       "description": "The W Line, also called the West Line, is a light rail line that serves the Central Platte Valley corridor, including West Denver, Lakewood, and Golden. Its service originally began in 1893 with the Denver, Lakewood and Golden Railroad, which discontinued service in the 1950s. RTD began construction on the resurrected W Line in 2008 and opened eight months ahead of schedule in April 2013. It"
+    },
+    {
+      "id": "h-line",
+      "systemId": "rtd-denver",
+      "name": "H Line",
+      "color": "Blue",
+      "colorHex": "#0055B8",
+      "opened": "2006-11-17",
+      "status": "under-construction",
+      "termini": ["18th & California Station", "18th & Stout Station", "Florida Station"],
+      "stationCount": 16,
+      "description": "The H Line is a light rail line that was added to RTD through the completion of the Southeast Corridor. In 2017, it was expanded to Florida Station, originally terminating at Nine Mile Station."
+    },
+    {
+      "id": "l-line",
+      "systemId": "rtd-denver",
+      "name": "L Line",
+      "color": "Yellow",
+      "colorHex": "#FFCD00",
+      "opened": "2018-01-14",
+      "status": "under-construction",
+      "termini": ["30th & Downing Station"],
+      "stationCount": 6,
+      "description": "The L line is a light rail line that runs through downtown Denver along a loop. When heading towards Denver, it runs from 30th & Downing along Welton Street to 19th Street. From there, it runs along Stout Street before looping back along California Street, before returning to 30th & Downing Station along Welton Street."
     }
   ]
 }
