@@ -3869,7 +3869,7 @@ stations = new Listing {
     features = new Listing {
       "fare-vending"
     }
-    description = "TODO: Add station description."
+    description = "Thornton Crossroads / 104th Ave Station serves Thornton at Colorado Boulevard and 104th Boulevard."
   }
   new {
     id = "union-station"
@@ -5102,7 +5102,7 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "TODO: Add station description."
+    description = "University of Denver Station serves the Univerity of Denver and the surrounding University Park neighborhood."
   }
   new {
     id = "westminster-station"
@@ -5140,7 +5140,7 @@ stations = new Listing {
     id = "wheat-ridge-ward-road-station"
     systemId = "rtd-denver"
     gtfsId = "34504"
-    name = "Wheat Ridge / Ward Road Station"
+    name = "Wheat Ridge / Ward Station"
     lines = new Listing {
       "g-line"
     }
@@ -5153,7 +5153,7 @@ stations = new Listing {
       "fare-vending"
     }
     osmId = 7373797407
-    description = "TODO: Add station description."
+    description = "Wheat Ridge / Ward Station serves the West side of Wheat Ridge. It serves as the proposed site of a major transit-oriented development."
   }
   new {
     id = "yale-station"
@@ -5213,6 +5213,6 @@ stations = new Listing {
         wheelchair = false
       }
     }
-    description = "TODO: Add station description."
+    description = "Yale Station serves the Holly Hills area of Denver."
   }
 }
