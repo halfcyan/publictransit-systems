@@ -216,7 +216,7 @@
     {
       "id": "20th-welton-station",
       "systemId": "rtd-denver",
-      "name": "20th / Welton Station",
+      "name": "20th & Welton Station",
       "lines": [
         "l-line"
       ],
@@ -224,12 +224,12 @@
       "features": [
         "fare-vending"
       ],
-      "description": "TODO: Add station description. This station is currently served only by a temporarily suspended line."
+      "description": "20th & Welton Station is a light rail station in downtown Denver, east of the downtown loop."
     },
     {
       "id": "25th-welton-station",
       "systemId": "rtd-denver",
-      "name": "25th / Welton Station",
+      "name": "25th & Welton Station",
       "lines": [
         "l-line"
       ],
@@ -237,12 +237,12 @@
       "features": [
         "fare-vending"
       ],
-      "description": "TODO: Add station description. This station is currently served only by a temporarily suspended line."
+      "description": "25th & Welton Station is a light rail station in downtown Denver, east of the downtown loop."
     },
     {
       "id": "27th-welton-station",
       "systemId": "rtd-denver",
-      "name": "27th / Welton Station",
+      "name": "27th & Welton Station",
       "lines": [
         "l-line"
       ],
@@ -250,7 +250,7 @@
       "features": [
         "fare-vending"
       ],
-      "description": "TODO: Add station description. This station is currently served only by a temporarily suspended line."
+      "description": "27th & Welton Station is a light rail station in downtown Denver, east of the downtown loop."
     },
     {
       "id": "2nd-ave-abilene-station",
@@ -360,12 +360,12 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "2nd Ave & Abilene Station serves a residential area along I-225."
     },
     {
       "id": "30th-downing-station",
       "systemId": "rtd-denver",
-      "name": "30th / Downing Station",
+      "name": "30th & Downing Station",
       "lines": [
         "l-line"
       ],
@@ -373,7 +373,7 @@
       "features": [
         "fare-vending"
       ],
-      "description": "TODO: Add station description. This station is currently served only by a temporarily suspended line."
+      "description": "30th & Downing Station is a light rail station in downtown Denver. It serves as the terminus for the L Line."
     },
     {
       "id": "38th-blake-station",
@@ -643,7 +643,6 @@
       "name": "Arapahoe at Village Center Station",
       "lines": [
         "e-line",
-        "h-line",
         "r-line",
         "t-line"
       ],
@@ -670,7 +669,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Arapahoe at Village Center Station serves the Fiddler's Green Ampitheater and has an art installation of sculptures called Nucleus, created by Michael Clapper."
     },
     {
       "id": "arvada-ridge-station",
@@ -691,7 +690,7 @@
         "fare-vending"
       ],
       "osmId": 7373751379,
-      "description": "TODO: Add station description."
+      "description": "Arvada Ridge Station serves western Arvada, Colorado, with service to Red Rocks Community College's Arvada campus. It features an art installation called Chromatic Harvest."
     },
     {
       "id": "auraria-west-campus-station",
@@ -880,7 +879,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Auraria West Station serves the Auraria Campus, home to the Community College of Denver, Metropolitan State University Denver, and the University of Colorado at Denver."
     },
     {
       "id": "aurora-metro-center-station",
@@ -1108,7 +1107,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Aurora Metro Center Station serves the Town Center at Aurora mal and the Aurora Municipal center."
     },
     {
       "id": "ball-arena-elitch-gardens-station",
@@ -1259,7 +1258,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Ball Arena / Elitch Gardens Station serves the area directly West of Union Station, including the Ball Arena and Elitch Gardens."
     },
     {
       "id": "belleview-station",
@@ -1268,7 +1267,6 @@
       "name": "Belleview Station",
       "lines": [
         "e-line",
-        "h-line",
         "r-line",
         "t-line"
       ],
@@ -1283,7 +1281,7 @@
       ],
       "osmId": 6775354285,
       "wikidata": "Q4883836",
-      "description": "TODO: Add station description."
+      "description": "Belleview Station serves the Denver Tech Center. It has an art installation called Thunder over the Rockies, created by Richard C. Elliott."
     },
     {
       "id": "central-park-station",
@@ -1323,7 +1321,7 @@
         "fare-vending"
       ],
       "osmId": 7373783401,
-      "description": "TODO: Add station description."
+      "description": "Clear Creek / Federal Station serves the unincorporated community of Berkley. It has RTD's largest piece of public art, Addison Karl's mural Doradus."
     },
     {
       "id": "colfax-auraria",
@@ -1437,7 +1435,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Colfax Station serves the Anschutz health campus, including the UCHealth University of Colorado Hospital and Children's Hospital Colorado."
     },
     {
       "id": "colorado-station",
@@ -1460,7 +1458,7 @@
       ],
       "osmId": 1362259731,
       "wikidata": "Q5148687",
-      "description": "TODO: Add station description."
+      "description": "Colorado Station serves the Colorado Center. It has an art installation named Big Boots created by Ries Niemi."
     },
     {
       "id": "commerce-city-72nd-ave-station",
@@ -1478,7 +1476,7 @@
       "features": [
         "fare-vending"
       ],
-      "description": "TODO: Add station description."
+      "description": "Commerce City / 72nd Station serves a primarily industrial area with some bus lines."
     },
     {
       "id": "county-line-station",
@@ -1502,7 +1500,7 @@
         "transfer"
       ],
       "osmId": 7383375126,
-      "description": "TODO: Add station description."
+      "description": "County Line Station serves the Park Meadows mall, though it did not have direct pedestrian access to the mall for 2 years after its construction. It features a sculpture named Plow created by Emmett Culligan."
     },
     {
       "id": "dayton-station",
@@ -1525,7 +1523,7 @@
         "transfer"
       ],
       "osmId": 7383433199,
-      "description": "TODO: Add station description."
+      "description": "Dayton Station is primarily interesting because it is located in the median of Interstate 225."
     },
     {
       "id": "decatur-federal-station",
@@ -1591,7 +1589,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Decatur-Federal Station serves a mixed commercial and residential area. The Colorado Department of Transportation is headquartered at Decatur-Federal, and the station serves Empower Field at Mile High and is a notable bus terminus."
     },
     {
       "id": "denver-airport-station",
@@ -2360,13 +2358,13 @@
         "transfer"
       ],
       "osmId": 7383363689,
-      "description": "TODO: Add station description."
+      "description": "Dry Creek Station serves a commercial-heavy area of Centennial. It has an art installation of a series of hourglasses containing pyrite that is named Fools Gold, created by John McEnroe."
     },
     {
       "id": "eastlake-124th-ave",
       "systemId": "rtd-denver",
       "gtfsId": "35367",
-      "name": "Eastlake /124th Ave",
+      "name": "Eastlake / 124th Ave",
       "lines": [
         "n-line"
       ],
@@ -2378,7 +2376,7 @@
       "features": [
         "fare-vending"
       ],
-      "description": "TODO: Add station description."
+      "description": "Eastlake / 124th Ave Stationserves as the terminus for the N Line."
     },
     {
       "id": "empower-field-at-mile-high",
@@ -2565,7 +2563,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Empower Field at Mile High Station serves the nearby stadium of the same name, which is home to the Denver Broncos."
     },
     {
       "id": "englewood-station",
@@ -2598,7 +2596,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Englewood Station serves the Englewood Civic Center and sits at the interchange between US 85 and US 285, both of which are suburban freeways."
     },
     {
       "id": "evans-station",
@@ -2619,7 +2617,7 @@
         "transfer"
       ],
       "osmId": 7381234663,
-      "description": "TODO: Add station description."
+      "description": "Evans Station serves the Overland neighborhood at US 85."
     },
     {
       "id": "federal-center-station",
@@ -2786,7 +2784,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Federal Center Station serves the nearby Federal Center and CommonSpirit St. Anthony Hospital, which is a level 1 trauma center. It is the last station of double track before the W Line switches to single track for the final stretch to Jefferson County Government Center/Golden Station."
     },
     {
       "id": "fitzsimons-station",
@@ -2816,7 +2814,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Fitzsimons Station serves the University of Colorado Anschutz. It retains the name from the former Fitzsions Army Medical Center."
     },
     {
       "id": "florida-station",
@@ -2850,7 +2848,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Florida Station is the transfer point for R Line passengers to continue towards downtown Denver, and for H Line passengers to continue towards Denver Airport."
     },
     {
       "id": "garrison-station",
@@ -2870,7 +2868,7 @@
       ],
       "osmId": 2375621013,
       "wikidata": "Q16891541",
-      "description": "TODO: Add station description."
+      "description": "Garrison Station serves a primarily residential area."
     },
     {
       "id": "i-25-broadway-station",
@@ -2923,7 +2921,7 @@
       "id": "jefferson-co-government-golden-station",
       "systemId": "rtd-denver",
       "gtfsId": "34241",
-      "name": "Jefferson CO Government-Golden Station",
+      "name": "Jefferson County Government Center/Golden Station",
       "lines": [
         "w-line"
       ],
@@ -2955,7 +2953,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Jefferson County Government Center/Golden Station serves the nearby community of Golden, including the Colorado School of Mines. In partnership with the City of Golden, Mines operates a transit shuttle called the Ore Cart that takes passengers from Jefferson County Government Center to downtown Golden and the Mines campus."
     },
     {
       "id": "knox-station",
@@ -3004,7 +3002,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Knox Station serves a primarily residential area in Denver's Villa Park neighborhood, and has spurred transit-oriented development nearby."
     },
     {
       "id": "lakewood-wadsworth-station",
@@ -3063,7 +3061,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Lakewood-Wadsworth Station is the primary light rail station serving Lakewood, Colorado. It is located on an overpass of Wadsworth Blvd, allowing pedestrians to exit and enter from either side of the road. Recently, it has spurred transit-oriented development, and is a popular park and ride for residents going to sports events and downtown Denver."
     },
     {
       "id": "lamar-station",
@@ -3104,7 +3102,7 @@
           "wheelchair": true
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Lamar Station serves a residential area of Lakewood, with some transit-oriented development nearby."
     },
     {
       "id": "lincoln-station",
@@ -3157,13 +3155,13 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Lincoln Station serves some office buildings off of I-25, but primarily serves as a park and ride."
     },
     {
       "id": "littleton-downtown-station",
       "systemId": "rtd-denver",
       "gtfsId": "33715",
-      "name": "Littleton / Downtown Station",
+      "name": "Littleton-Downtown Station",
       "lines": [
         "c-line",
         "d-line"
@@ -3189,13 +3187,13 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Littleton-Downtown Station serves downtown Littleton. It was historically a depoy for the Denver & Rio Grande Railroad's Royal Gorge Route. The depot building was converted into a coffee shop which was open from 2000-2020 and 2022-2024."
     },
     {
       "id": "littleton-mineral-station",
       "systemId": "rtd-denver",
       "gtfsId": "33716",
-      "name": "Littleton / Mineral Station",
+      "name": "Littleton-Mineral Station",
       "lines": [
         "c-line",
         "d-line"
@@ -3210,7 +3208,7 @@
         "transfer"
       ],
       "osmId": 7382036678,
-      "description": "TODO: Add station description."
+      "description": "Littleton-Mineral Station serves as the southern terminus for the C Line, but RTD plans to extend the line south to Highlands Ranch."
     },
     {
       "id": "lone-tree-city-center-station",
@@ -3231,13 +3229,13 @@
         "transfer"
       ],
       "osmId": 7383401604,
-      "description": "TODO: Add station description."
+      "description": "Lone Tree City Center Station serves a field. It is by far the least used RTD station with an average of 20 passengers, zero parking spots, and nothing interesting nearby. It is planned to host transit-oriented development, but no such plans have been created since its opening in 2019."
     },
     {
       "id": "louisiana-pearl-station",
       "systemId": "rtd-denver",
       "gtfsId": "33725",
-      "name": "Louisiana / Pearl Station",
+      "name": "Louisiana-Pearl Station",
       "lines": [
         "e-line",
         "h-line",
@@ -3253,7 +3251,7 @@
         "transfer"
       ],
       "osmId": 7382727324,
-      "description": "TODO: Add station description."
+      "description": "Louisiana-Pearl Station serves the Platt Park neighborhood and is partially underground. It has a kinetic sculpture named Strange Machine created by Ira Sherman."
     },
     {
       "id": "nine-mile-station",
@@ -3288,13 +3286,13 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Nine Mile Station serves as a transit hub for southeast Denver and south Aurora. There are buses that provide service to Denver International Airport that is often faster than the R Line."
     },
     {
       "id": "northglenn-112th-ave-station",
       "systemId": "rtd-denver",
       "gtfsId": "35366",
-      "name": "Northglenn / 112th Ave Station",
+      "name": "Northglenn / 112th Station",
       "lines": [
         "n-line"
       ],
@@ -3306,7 +3304,7 @@
       "features": [
         "fare-vending"
       ],
-      "description": "TODO: Add station description."
+      "description": "Northglenn / 112th Station serves Northglenn. During its construction, a trestle bridge from 1909 was discovered, but it was determined not to be of historical value and destroyed."
     },
     {
       "id": "oak-station",
@@ -3345,7 +3343,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Oak Station serves a mixed commercial area of Lakewood, near the Lakewood Tech Center. It has spurred some transit-oriented development and serves as a bus transfer point."
     },
     {
       "id": "olde-town-arvada",
@@ -3402,7 +3400,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Olde Town Arvada Station serves the Olde Town Arvada shopping area."
     },
     {
       "id": "orchard-station",
@@ -3428,7 +3426,7 @@
       ],
       "osmId": 6775305388,
       "wikidata": "Q7100170",
-      "description": "TODO: Add station description."
+      "description": "Orchard Station serves Greenwood Village. It has an art installation of stamped concrete called Orchard Memory, created by Wopo Holup."
     },
     {
       "id": "original-thornton-88th-ave-station",
@@ -3446,7 +3444,7 @@
       "features": [
         "fare-vending"
       ],
-      "description": "TODO: Add station description."
+      "description": "Original Thornton / 88th Station serves the area of Thornton near 88th Avenue and Welby Road."
     },
     {
       "id": "oxford-city-of-sheridan-station",
@@ -3467,7 +3465,7 @@
         "transfer"
       ],
       "osmId": 7382036672,
-      "description": "TODO: Add station description."
+      "description": "Oxford-City of Sheridan Station serves the border of Sheridan and Englewood."
     },
     {
       "id": "pecos-junction-station",
@@ -3589,7 +3587,7 @@
       ],
       "osmId": 2376710288,
       "wikidata": "Q16898221",
-      "description": "TODO: Add station description."
+      "description": "Perry Station serves a suburban area of west Denver. It has some transit-oriented development."
     },
     {
       "id": "red-rocks-college-station",
@@ -3608,7 +3606,7 @@
         "fare-vending"
       ],
       "osmId": 7377355851,
-      "description": "TODO: Add station description."
+      "description": "Red Rocks College Station serves as a midpoint between Federal Center Station and Jefferson County Government Center/Golden Station. It serves the Red Rocks Community College Lakewood campus."
     },
     {
       "id": "ridgegate-parkway-station",
@@ -3705,7 +3703,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "RidgeGate Parkway Station is planned to serve the RidgeGate development, which is a massive mixed-use community spanning 3,500 acres."
     },
     {
       "id": "sheridan-station",
@@ -3753,7 +3751,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Sheridan Station serves the border of Lakewood and Denver along Sheridan Blvd. It is near Sloan's Lake and has a large park and ride garage."
     },
     {
       "id": "sky-ridge-station",
@@ -3794,7 +3792,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Sky Ridge Station serves the Sky Ridge Medical Center."
     },
     {
       "id": "southmoor-station",
@@ -3830,7 +3828,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Southmoor Station serves South Denver and acts as the transfer point to the I-225 Corridor."
     },
     {
       "id": "theatre-district-convention-center",
@@ -3869,7 +3867,7 @@
       "features": [
         "fare-vending"
       ],
-      "description": "TODO: Add station description."
+      "description": "Thornton Crossroads / 104th Ave Station serves Thornton at Colorado Boulevard and 104th Boulevard."
     },
     {
       "id": "union-station",
@@ -5102,7 +5100,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "University of Denver Station serves the Univerity of Denver and the surrounding University Park neighborhood."
     },
     {
       "id": "westminster-station",
@@ -5140,7 +5138,7 @@
       "id": "wheat-ridge-ward-road-station",
       "systemId": "rtd-denver",
       "gtfsId": "34504",
-      "name": "Wheat Ridge / Ward Road Station",
+      "name": "Wheat Ridge / Ward Station",
       "lines": [
         "g-line"
       ],
@@ -5153,7 +5151,7 @@
         "fare-vending"
       ],
       "osmId": 7373797407,
-      "description": "TODO: Add station description."
+      "description": "Wheat Ridge / Ward Station serves the West side of Wheat Ridge. It serves as the proposed site of a major transit-oriented development."
     },
     {
       "id": "yale-station",
@@ -5213,7 +5211,7 @@
           "wheelchair": false
         }
       ],
-      "description": "TODO: Add station description."
+      "description": "Yale Station serves the Holly Hills area of Denver."
     }
   ]
 }
