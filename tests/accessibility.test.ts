@@ -16,47 +16,50 @@ function formatImpact(impact: string | null | undefined) {
   return impactKey[impact] ?? impact;
 }
 
-test("app routes have no accessibility violations", async ({ page, makeAxeBuilder }) => {
-  const routes = await getRoutes();
+// One test per route: each page gets its own timeout, failures don't hide
+// the routes behind them, and workers can run pages in parallel.
+for (const route of getRoutes()) {
+  const pageLabel = route === "/" ? "homepage" : route;
 
-  for (const route of routes) {
+  test(`${pageLabel} has no accessibility violations`, async ({ page, makeAxeBuilder }) => {
     const pageURL = new URL(route, localURL).toString();
-    const pageLabel = route === "/" ? "homepage" : route;
 
-    await test.step(pageLabel, async () => {
-      await page.goto(pageURL, { waitUntil: "networkidle" });
+    // Pages are server-rendered, so the DOM is complete at domcontentloaded;
+    // networkidle never settles here (map tiles, analytics) and is what
+    // Playwright itself recommends against.
+    await page.goto(pageURL, { waitUntil: "domcontentloaded" });
+    await page.locator("body").waitFor();
 
-      const { violations } = await makeAxeBuilder().analyze();
-      const reportMessage = `Found ${violations.length} accessibility violations on ${pageLabel}.`;
+    const { violations } = await makeAxeBuilder().analyze();
+    const reportMessage = `Found ${violations.length} accessibility violations on ${pageLabel}.`;
 
-      if (violations.length === 0) {
-        expect(violations, reportMessage).toHaveLength(0);
-        return;
-      }
+    if (violations.length === 0) {
+      expect(violations, reportMessage).toHaveLength(0);
+      return;
+    }
 
-      const violationLog = violations
-        .map((violation, violationIndex) => {
-          const nodes = violation.nodes
-            .map(
-              (node, nodeIndex) => `
+    const violationLog = violations
+      .map((violation, violationIndex) => {
+        const nodes = violation.nodes
+          .map(
+            (node, nodeIndex) => `
 ${styleText("redBright", `  Node ${nodeIndex + 1} HTML:`)} ${node.html}
 ${styleText("redBright", `  Node ${nodeIndex + 1} CSS:`)} ${node.target.join(", ")}
 ${styleText("green", "  Suggested fix:")}
   ${node.failureSummary ?? "No failure summary provided."}`
-            )
-            .join("\n");
+          )
+          .join("\n");
 
-          return `
+        return `
 ${styleText(["redBright", "bold"], `Violation ${violationIndex + 1}:`)}
 ${styleText("redBright", "  Violation ID:")} ${violation.id}
 ${styleText("redBright", "  Violation Impact:")} ${formatImpact(violation.impact)}
 ${styleText("redBright", "  Violation Description:")} ${violation.help}
 ${styleText("redBright", "  More info:")} ${violation.helpUrl}
 ${nodes}`;
-        })
-        .join("\n\n");
+      })
+      .join("\n\n");
 
-      throw new Error(`${violationLog}\n\n${reportMessage}`);
-    });
-  }
-});
+    throw new Error(`${violationLog}\n\n${reportMessage}`);
+  });
+}
