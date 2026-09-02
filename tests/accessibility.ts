@@ -23,11 +23,11 @@ const dataDir = path.join(process.cwd(), "data", "systems");
 
 export const localURL = process.env.PLAYWRIGHT_BASE_URL ?? "http://127.0.0.1:3000";
 
-function readJSON<T>(filePath: string): T | undefined {
+function readJSON<T>(filePath: string): T {
   try {
     return JSON.parse(fs.readFileSync(filePath, "utf8")) as T;
-  } catch {
-    return undefined;
+  } catch (error) {
+    throw new Error(`Unable to read route data from ${filePath}: ${(error as Error).message}`);
   }
 }
 
@@ -35,22 +35,11 @@ function readJSON<T>(filePath: string): T | undefined {
 export function getRoutes(): string[] {
   const routes = new Set<string>(["/", "/compare", "/search", "/docs/about", "/docs/api"]);
 
-  let systemIds: string[] = [];
-  try {
-    systemIds = fs.readdirSync(dataDir);
-  } catch {
-    return [...routes].sort();
-  }
+  const systemIds = fs.readdirSync(dataDir);
 
   for (const systemId of systemIds) {
     const systemDir = path.join(dataDir, systemId);
-    let isDirectory = false;
-    try {
-      isDirectory = fs.statSync(systemDir).isDirectory();
-    } catch {
-      continue;
-    }
-    if (!isDirectory) {
+    if (!fs.statSync(systemDir).isDirectory()) {
       continue;
     }
 

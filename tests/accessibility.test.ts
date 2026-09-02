@@ -27,7 +27,12 @@ for (const route of getRoutes()) {
     // Pages are server-rendered, so the DOM is complete at domcontentloaded;
     // networkidle never settles here (map tiles, analytics) and is what
     // Playwright itself recommends against.
-    await page.goto(pageURL, { waitUntil: "domcontentloaded" });
+    const response = await page.goto(pageURL, { waitUntil: "domcontentloaded" });
+    expect(response, `Expected ${pageLabel} to return a response.`).not.toBeNull();
+    expect(
+      response?.ok(),
+      `Expected ${pageLabel} to load successfully, received HTTP ${response?.status() ?? "no response"}.`
+    ).toBe(true);
     await page.locator("body").waitFor();
 
     const { violations } = await makeAxeBuilder().analyze();
