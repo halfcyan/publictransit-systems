@@ -1,6 +1,6 @@
 # Public Transit Systems
 
-A comprehensive information resource about public transit systems worldwide, featuring a Shodan-inspired dark, data-dense aesthetic with terminal/monospace elements.
+A comprehensive information resource about public transit systems worldwide, featuring a dark, data-dense aesthetic with terminal/monospace elements.
 
 ## Features
 
@@ -21,6 +21,8 @@ A comprehensive information resource about public transit systems worldwide, fea
 
 ## Getting Started
 
+This repo uses [pnpm](https://pnpm.io) (a `preinstall` hook will stop npm and yarn installs). Node 22+ ships Corepack, so `corepack enable` gets you the pinned version; otherwise install pnpm however you like.
+
 ```bash
 # Install dependencies
 pnpm install
@@ -38,7 +40,7 @@ pnpm start
 pnpm test:accessibility
 
 # Check linting
-pnpm linting
+pnpm lint
 
 # Format files
 pnpm format
