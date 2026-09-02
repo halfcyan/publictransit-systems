@@ -12,9 +12,8 @@
     "totalStations": 77,
     "totalLines": 12,
     "annualRidership": "19.2 million",
-    "trackMiles": 113.1,
     "dailyRidership": "74,900",
-    "trackLength": 59,
+    "trackLength": 113.1,
     "distanceUnit": "mi"
   },
   "colors": {
