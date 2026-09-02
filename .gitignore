@@ -49,3 +49,6 @@ next-env.d.ts
 .worktrees
 data/raw/
 data/.cache/
+
+# accessibility test results
+test-results/
