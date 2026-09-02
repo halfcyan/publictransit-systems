@@ -1152,7 +1152,7 @@
       "description": "Union Station is the historical intercity rail station serving Denver. It was renovated in 1914 and 2014. The majority of RTD rail lines connect to Union Station."
     },
     {
-      "id": "denver-airport-station",
+      "id": "denver-airport",
       "systemId": "rtd-denver",
       "gtfsId": "34503",
       "name": "Denver Airport Station",
@@ -1891,7 +1891,7 @@
       "description": "Denver Airport Station allows travelers to get to Denver Airport via transit. It has a special, higher fare zone specifically for travelers to and from the station. It has three art installations: Shadow Array by Patrick Marold, L’eau dans tous ses états by Yann Kersalé, and an informal installation of railroad ties in an unused area."
     },
     {
-      "id": "peoria-station",
+      "id": "peoria",
       "systemId": "rtd-denver",
       "gtfsId": "34502",
       "name": "Peoria Station",
@@ -1962,7 +1962,7 @@
       "description": "Peoria Station is a junction on the A Line and serves as the northern terminus of the R Line. It is the first A Line connection to Aurora. It has an art installation named Biota by Blessing Hancock."
     },
     {
-      "id": "i-25-broadway-station",
+      "id": "i-25-broadway",
       "systemId": "rtd-denver",
       "gtfsId": "33686",
       "name": "I-25 / Broadway Station",
@@ -1977,7 +1977,7 @@
       "description": "I-25 / Broadway Station was originally the southern terminus of the RTD rail network. During the Downtown Rail Reconstruction Project, it is served by the C, E, and temporary T Lines. It has three sculptures collectively titled The Welcoming Committee, created by Elaine Calzolari."
     },
     {
-      "id": "40th-airport-gateway-park-station",
+      "id": "40th-airport-gateway-park",
       "systemId": "rtd-denver",
       "gtfsId": "33740",
       "name": "40th  / Airport - Gateway Park Station",
@@ -1992,7 +1992,7 @@
       "description": "40th / Airport - Gateway Park Station serves Aurora. It has a large park-and-ride facility and an art installation, Time Present, by Molly Dilworth."
     },
     {
-      "id": "central-park-station",
+      "id": "central-park",
       "systemId": "rtd-denver",
       "gtfsId": "34501",
       "name": "Central Park Station",
@@ -2007,7 +2007,7 @@
       "description": "Denver's Central Park Station serves the Park Hill and Central Park neighborhoods of Denver. It is near the former location of Stapleton International Airport. It has an art installation named Balloon Man Running created by Sean O'Meallie."
     },
     {
-      "id": "auraria-west-campus-station",
+      "id": "auraria-west-campus",
       "systemId": "rtd-denver",
       "gtfsId": "34112",
       "name": "Auraria West Campus Station",
@@ -2199,7 +2199,7 @@
       "description": "16th & California Station is one of two stations along 16th Street. It has no active rail service while the D, H, and L Lines are suspended."
     },
     {
-      "id": "16th-stout-station",
+      "id": "16th-stout",
       "systemId": "rtd-denver",
       "name": "16th & Stout Station",
       "lines": ["d-line", "h-line", "l-line"],
@@ -2212,7 +2212,7 @@
       "description": "16th & Stout Station is one of two stations along 16th Street. It has no active rail service while the D, H, and L Lines are suspended."
     },
     {
-      "id": "alameda-station",
+      "id": "alameda",
       "systemId": "rtd-denver",
       "gtfsId": "33704",
       "name": "Alameda Station",
@@ -2260,7 +2260,7 @@
       "description": "18th & California Station is one of two stations along 18th Street. It has no active rail service while the D, H, and L Lines are suspended."
     },
     {
-      "id": "18th-stout-station",
+      "id": "18th-stout",
       "systemId": "rtd-denver",
       "name": "18th & Stout Station",
       "lines": ["d-line", "h-line", "l-line"],
@@ -2273,7 +2273,7 @@
       "description": "18th & Stout Station is one of two stations along 18th Street. It has no active rail service while the D, H, and L Lines are suspended."
     },
     {
-      "id": "10th-osage-station",
+      "id": "10th-osage",
       "systemId": "rtd-denver",
       "gtfsId": "34109",
       "name": "10th / Osage Station",
@@ -2381,7 +2381,7 @@
       "description": "10th / Osage Station serves a residential area of Denver and is the northernmost station of the Central Corridor."
     },
     {
-      "id": "littleton-mineral-station",
+      "id": "littleton-mineral",
       "systemId": "rtd-denver",
       "gtfsId": "33716",
       "name": "Littleton-Mineral Station",
@@ -2409,7 +2409,7 @@
       "description": "Colfax at Auraria Station serves the east end of the Auraria Campus."
     },
     {
-      "id": "38th-blake-station",
+      "id": "38th-blake",
       "systemId": "rtd-denver",
       "gtfsId": "34684",
       "name": "38th / Blake Station",
@@ -2471,7 +2471,7 @@
       "description": "38th / Blake Station serves the Five Points neighborhood of Denver, including RiNo. It has an art installation named Conflux/Redox by Kelton Osborn."
     },
     {
-      "id": "61st-pena-station",
+      "id": "61st-pena",
       "systemId": "rtd-denver",
       "gtfsId": "34685",
       "name": "61st / Pena Station",
@@ -2488,7 +2488,7 @@
       "description": "61st / Peña Station is the final station before Denver Airport Station and the last station in the local fare zone. Its parking is managed by Denver International Airport."
     },
     {
-      "id": "40th-colorado-station",
+      "id": "40th-colorado",
       "systemId": "rtd-denver",
       "gtfsId": "34500",
       "name": "40th / Colorado Station",
@@ -2503,7 +2503,7 @@
       "description": "40th / Colorado Station serves the Elyria-Swansea neighborhood of Denver. It features an art installation named Hands On created by Erik Carlson."
     },
     {
-      "id": "florida-station",
+      "id": "florida",
       "systemId": "rtd-denver",
       "gtfsId": "34679",
       "name": "Florida Station",
@@ -2529,7 +2529,7 @@
       "description": "Florida Station is served by the R Line. H Line service is suspended during the Downtown Rail Reconstruction Project."
     },
     {
-      "id": "arapahoe-at-village-center-station",
+      "id": "arapahoe-at-village-center",
       "systemId": "rtd-denver",
       "gtfsId": "33705",
       "name": "Arapahoe at Village Center Station",
@@ -2555,7 +2555,7 @@
       "description": "Arapahoe at Village Center Station serves the Fiddler's Green Amphitheatre and has an art installation, Nucleus, by Michael Clapper."
     },
     {
-      "id": "colorado-station",
+      "id": "colorado",
       "systemId": "rtd-denver",
       "gtfsId": "33708",
       "name": "Colorado Station",
@@ -2571,7 +2571,7 @@
       "description": "Colorado Station serves the Colorado Center. It has an art installation named Big Boots created by Ries Niemi."
     },
     {
-      "id": "nine-mile-station",
+      "id": "nine-mile",
       "systemId": "rtd-denver",
       "gtfsId": "33719",
       "name": "Nine Mile Station",
@@ -2598,7 +2598,7 @@
       "description": "Nine Mile Station serves as a transit hub for southeast Denver and south Aurora. There are buses that provide service to Denver International Airport that is often faster than the R Line."
     },
     {
-      "id": "lakewood-wadsworth-station",
+      "id": "lakewood-wadsworth",
       "systemId": "rtd-denver",
       "gtfsId": "34237",
       "name": "Lakewood-Wadsworth Station",
@@ -2665,7 +2665,7 @@
       "description": "Eastlake / 124th Ave Station serves as the terminus for the N Line."
     },
     {
-      "id": "southmoor-station",
+      "id": "southmoor",
       "systemId": "rtd-denver",
       "gtfsId": "33721",
       "name": "Southmoor Station",
@@ -2692,7 +2692,7 @@
       "description": "Southmoor Station serves South Denver and acts as the transfer point to the I-225 Corridor."
     },
     {
-      "id": "decatur-federal-station",
+      "id": "decatur-federal",
       "systemId": "rtd-denver",
       "gtfsId": "34232",
       "name": "Decatur-Federal Station",
@@ -2767,7 +2767,7 @@
       "description": "Theatre District-Convention Center Station serves the Colorado Convention Center and the Denver Performing Arts Complex. It replaced the 14th & California and 14th & Stout stations."
     },
     {
-      "id": "englewood-station",
+      "id": "englewood",
       "systemId": "rtd-denver",
       "gtfsId": "33712",
       "name": "Englewood Station",
@@ -2794,7 +2794,7 @@
       "description": "Englewood Station serves the Englewood Civic Center and sits at the interchange between US 85 and US 285, both of which are suburban freeways."
     },
     {
-      "id": "belleview-station",
+      "id": "belleview",
       "systemId": "rtd-denver",
       "gtfsId": "33706",
       "name": "Belleview Station",
@@ -2810,7 +2810,7 @@
       "description": "Belleview Station serves the Denver Tech Center. It has an art installation called Thunder over the Rockies, created by Richard C. Elliott."
     },
     {
-      "id": "federal-center-station",
+      "id": "federal-center",
       "systemId": "rtd-denver",
       "gtfsId": "33741",
       "name": "Federal Center Station",
@@ -2972,7 +2972,7 @@
       "description": "Federal Center Station serves the nearby Federal Center and CommonSpirit St. Anthony Hospital, which is a level 1 trauma center. It is the last station of double track before the W Line switches to single track for the final stretch to Jefferson County Government Center/Golden Station."
     },
     {
-      "id": "lincoln-station",
+      "id": "lincoln",
       "systemId": "rtd-denver",
       "gtfsId": "33714",
       "name": "Lincoln Station",
@@ -3016,7 +3016,7 @@
       "description": "Lincoln Station serves some office buildings off of I-25, but primarily serves as a park and ride."
     },
     {
-      "id": "jefferson-co-government-golden-station",
+      "id": "jefferson-co-government-golden",
       "systemId": "rtd-denver",
       "gtfsId": "34241",
       "name": "Jefferson County Government Center/Golden Station",
@@ -3103,7 +3103,7 @@
       "description": "Olde Town Arvada Station serves the Olde Town Arvada shopping area."
     },
     {
-      "id": "ridgegate-parkway-station",
+      "id": "ridgegate-parkway",
       "systemId": "rtd-denver",
       "gtfsId": "35245",
       "name": "Ridgegate Parkway Station",
@@ -3192,7 +3192,7 @@
       "description": "Ridgegate Parkway Station is planned to serve the Ridgegate development, a large mixed-use community spanning 3,500 acres."
     },
     {
-      "id": "littleton-downtown-station",
+      "id": "littleton-downtown",
       "systemId": "rtd-denver",
       "gtfsId": "33715",
       "name": "Littleton-Downtown Station",
@@ -3218,7 +3218,7 @@
       "description": "Littleton / Downtown Station serves downtown Littleton. It was historically a depot for the Denver & Rio Grande Railroad's Royal Gorge Route."
     },
     {
-      "id": "sheridan-station",
+      "id": "sheridan",
       "systemId": "rtd-denver",
       "gtfsId": "34235",
       "name": "Sheridan Station",
@@ -3262,7 +3262,7 @@
       "description": "Sheridan Station serves the border of Lakewood and Denver along Sheridan Blvd. It is near Sloan's Lake and has a large park and ride garage."
     },
     {
-      "id": "oak-station",
+      "id": "oak",
       "systemId": "rtd-denver",
       "gtfsId": "34239",
       "name": "Oak Station",
@@ -3297,7 +3297,7 @@
       "description": "Oak Station serves a mixed commercial area of Lakewood, near the Lakewood Tech Center. It has spurred some transit-oriented development and serves as a bus transfer point."
     },
     {
-      "id": "university-of-denver-station",
+      "id": "university-of-denver",
       "systemId": "rtd-denver",
       "gtfsId": "33722",
       "name": "University of Denver Station",
@@ -3359,7 +3359,7 @@
       "description": "University of Denver Station serves the University of Denver and the surrounding University Park neighborhood."
     },
     {
-      "id": "ball-arena-elitch-gardens-station",
+      "id": "ball-arena-elitch-gardens",
       "systemId": "rtd-denver",
       "gtfsId": "34110",
       "name": "Ball Arena / Elitch Gardens Station",
@@ -3503,7 +3503,7 @@
       "description": "Ball Arena / Elitch Gardens Station serves the area directly west of Union Station, including Ball Arena and Elitch Gardens."
     },
     {
-      "id": "thornton-crossroads-104th-ave-station",
+      "id": "thornton-crossroads-104th-ave",
       "systemId": "rtd-denver",
       "gtfsId": "35365",
       "name": "Thornton Crossroads / 104th Ave Station",
@@ -3517,7 +3517,7 @@
       "description": "Thornton Crossroads / 104th Ave Station serves Thornton at Colorado Boulevard and 104th Boulevard."
     },
     {
-      "id": "iliff-station",
+      "id": "iliff",
       "systemId": "rtd-denver",
       "gtfsId": "34677",
       "name": "Iliff Station",
@@ -3532,7 +3532,7 @@
       "description": "TODO: Add station description."
     },
     {
-      "id": "county-line-station",
+      "id": "county-line",
       "systemId": "rtd-denver",
       "gtfsId": "33709",
       "name": "County Line Station",
@@ -3547,7 +3547,7 @@
       "description": "County Line Station serves the Park Meadows mall, though it did not have direct pedestrian access to the mall for 2 years after its construction. It features a sculpture named Plow created by Emmett Culligan."
     },
     {
-      "id": "aurora-metro-center-station",
+      "id": "aurora-metro-center",
       "systemId": "rtd-denver",
       "gtfsId": "34678",
       "name": "Aurora Metro Center Station",
@@ -3771,7 +3771,7 @@
       "description": "Aurora Metro Center Station serves the Town Center at Aurora mall and the Aurora Municipal Center."
     },
     {
-      "id": "lamar-station",
+      "id": "lamar",
       "systemId": "rtd-denver",
       "gtfsId": "34236",
       "name": "Lamar Station",
@@ -3807,7 +3807,7 @@
       "description": "Lamar Station serves a residential area of Lakewood, with some transit-oriented development nearby."
     },
     {
-      "id": "dry-creek-station",
+      "id": "dry-creek",
       "systemId": "rtd-denver",
       "gtfsId": "33711",
       "name": "Dry Creek Station",
@@ -4001,7 +4001,7 @@
       "description": "Empower Field at Mile High Station serves the nearby stadium of the same name, which is home to the Denver Broncos."
     },
     {
-      "id": "wheat-ridge-ward-road-station",
+      "id": "wheat-ridge-ward-road",
       "systemId": "rtd-denver",
       "gtfsId": "34504",
       "name": "Wheat Ridge / Ward Station",
@@ -4016,7 +4016,7 @@
       "description": "Wheat Ridge / Ward Station serves the west side of Wheat Ridge. It is the proposed site of a major transit-oriented development."
     },
     {
-      "id": "garrison-station",
+      "id": "garrison",
       "systemId": "rtd-denver",
       "gtfsId": "34238",
       "name": "Garrison Station",
@@ -4032,7 +4032,7 @@
       "description": "Garrison Station serves a primarily residential area."
     },
     {
-      "id": "louisiana-pearl-station",
+      "id": "louisiana-pearl",
       "systemId": "rtd-denver",
       "gtfsId": "33725",
       "name": "Louisiana-Pearl Station",
@@ -4047,7 +4047,7 @@
       "description": "Louisiana-Pearl Station serves the Platt Park neighborhood and is partially underground. It has a kinetic sculpture named Strange Machine created by Ira Sherman."
     },
     {
-      "id": "knox-station",
+      "id": "knox",
       "systemId": "rtd-denver",
       "gtfsId": "34233",
       "name": "Knox Station",
@@ -4092,7 +4092,7 @@
       "description": "Knox Station serves a primarily residential area in Denver's Villa Park neighborhood, and has spurred transit-oriented development nearby."
     },
     {
-      "id": "colfax-station",
+      "id": "colfax",
       "systemId": "rtd-denver",
       "gtfsId": "34682",
       "name": "Colfax Station",
@@ -4181,7 +4181,7 @@
       "description": "Colfax Station serves the Anschutz health campus, including the UCHealth University of Colorado Hospital and Children's Hospital Colorado."
     },
     {
-      "id": "evans-station",
+      "id": "evans",
       "systemId": "rtd-denver",
       "gtfsId": "33713",
       "name": "Evans Station",
@@ -4196,7 +4196,7 @@
       "description": "Evans Station serves the Overland neighborhood at US 85."
     },
     {
-      "id": "original-thornton-88th-ave-station",
+      "id": "original-thornton-88th-ave",
       "systemId": "rtd-denver",
       "gtfsId": "35364",
       "name": "Original Thornton / 88th Ave Station",
@@ -4210,7 +4210,7 @@
       "description": "Original Thornton / 88th Station serves the area of Thornton near 88th Avenue and Welby Road."
     },
     {
-      "id": "commerce-city-72nd-ave-station",
+      "id": "commerce-city-72nd-ave",
       "systemId": "rtd-denver",
       "gtfsId": "35363",
       "name": "Commerce City / 72nd Ave Station",
@@ -4224,7 +4224,7 @@
       "description": "Commerce City / 72nd Ave Station serves a primarily industrial area with some bus connections."
     },
     {
-      "id": "northglenn-112th-ave-station",
+      "id": "northglenn-112th-ave",
       "systemId": "rtd-denver",
       "gtfsId": "35366",
       "name": "Northglenn / 112th Station",
@@ -4238,7 +4238,7 @@
       "description": "Northglenn / 112th Station serves Northglenn. During its construction, a trestle bridge from 1909 was discovered, but it was determined not to be of historical value and destroyed."
     },
     {
-      "id": "dayton-station",
+      "id": "dayton",
       "systemId": "rtd-denver",
       "gtfsId": "33710",
       "name": "Dayton Station",
@@ -4253,7 +4253,7 @@
       "description": "Dayton Station is primarily interesting because it is located in the median of Interstate 225."
     },
     {
-      "id": "arvada-ridge-station",
+      "id": "arvada-ridge",
       "systemId": "rtd-denver",
       "gtfsId": "34505",
       "name": "Arvada Ridge Station",
@@ -4268,7 +4268,7 @@
       "description": "Arvada Ridge Station serves western Arvada, Colorado, with service to Red Rocks Community College's Arvada campus. It features an art installation called Chromatic Harvest."
     },
     {
-      "id": "41st-fox-station",
+      "id": "41st-fox",
       "systemId": "rtd-denver",
       "gtfsId": "34548",
       "name": "41st / Fox Station",
@@ -4312,7 +4312,7 @@
       "description": "41st / Fox Station serves the Globeville and Sunnyside neighborhoods of Denver."
     },
     {
-      "id": "yale-station",
+      "id": "yale",
       "systemId": "rtd-denver",
       "gtfsId": "33723",
       "name": "Yale Station",
@@ -4365,7 +4365,7 @@
       "description": "Yale Station serves the Holly Hills area of Denver."
     },
     {
-      "id": "orchard-station",
+      "id": "orchard",
       "systemId": "rtd-denver",
       "gtfsId": "33720",
       "name": "Orchard Station",
@@ -4381,7 +4381,7 @@
       "description": "Orchard Station serves Greenwood Village. It has an art installation of stamped concrete called Orchard Memory, created by Wopo Holup."
     },
     {
-      "id": "60th-sheridan-arvada-gold-strike-station",
+      "id": "60th-sheridan-arvada-gold-strike",
       "systemId": "rtd-denver",
       "gtfsId": "34506",
       "name": "60th / Sheridan - Arvada Gold Strike Station",
@@ -4396,7 +4396,7 @@
       "description": "TODO: Add station description."
     },
     {
-      "id": "perry-station",
+      "id": "perry",
       "systemId": "rtd-denver",
       "gtfsId": "34234",
       "name": "Perry Station",
@@ -4412,7 +4412,7 @@
       "description": "Perry Station serves a suburban area of west Denver. It has some transit-oriented development."
     },
     {
-      "id": "oxford-city-of-sheridan-station",
+      "id": "oxford-city-of-sheridan",
       "systemId": "rtd-denver",
       "gtfsId": "33726",
       "name": "Oxford-City of Sheridan Station",
@@ -4427,7 +4427,7 @@
       "description": "Oxford-City of Sheridan Station serves the border of Sheridan and Englewood."
     },
     {
-      "id": "30th-downing-station",
+      "id": "30th-downing",
       "systemId": "rtd-denver",
       "name": "30th & Downing Station",
       "lines": ["l-line"],
@@ -4454,7 +4454,7 @@
       "description": "TODO: Add station description."
     },
     {
-      "id": "westminster-station",
+      "id": "westminster",
       "systemId": "rtd-denver",
       "gtfsId": "34549",
       "name": "Westminster Station",
@@ -4480,7 +4480,7 @@
       "description": "Westminster Station serves Westminster and is the northern terminus of the B Line, though there are plans to extend the B Line to Boulder and Longmont. It has an art installation called Grotto by Brian W. Brush."
     },
     {
-      "id": "clear-creek-federal-station",
+      "id": "clear-creek-federal",
       "systemId": "rtd-denver",
       "gtfsId": "34507",
       "name": "Clear Creek / Federal Station",
@@ -4495,7 +4495,7 @@
       "description": "Clear Creek / Federal Station serves the unincorporated community of Berkley. It has RTD's largest piece of public art, Addison Karl's mural Doradus."
     },
     {
-      "id": "2nd-ave-abilene-station",
+      "id": "2nd-ave-abilene",
       "systemId": "rtd-denver",
       "gtfsId": "34680",
       "name": "2nd Ave & Abilene Station",
@@ -4601,7 +4601,7 @@
       "description": "2nd Ave & Abilene Station serves a residential area along I-225."
     },
     {
-      "id": "sky-ridge-station",
+      "id": "sky-ridge",
       "systemId": "rtd-denver",
       "gtfsId": "35243",
       "name": "Sky Ridge Station",
@@ -4636,7 +4636,7 @@
       "description": "Sky Ridge Station serves the Sky Ridge Medical Center."
     },
     {
-      "id": "pecos-junction-station",
+      "id": "pecos-junction",
       "systemId": "rtd-denver",
       "gtfsId": "34508",
       "name": "Pecos Junction Station",
@@ -4651,7 +4651,7 @@
       "description": "Pecos Junction Station is the last station that the B and G Lines share and it is one of the least used stations in the RTD network."
     },
     {
-      "id": "red-rocks-college-station",
+      "id": "red-rocks-college",
       "systemId": "rtd-denver",
       "gtfsId": "34240",
       "name": "Red Rocks College Station",
@@ -4666,7 +4666,7 @@
       "description": "Red Rocks College Station serves as a midpoint between Federal Center Station and Jefferson County Government Center/Golden Station. It serves the Red Rocks Community College Lakewood campus."
     },
     {
-      "id": "13th-ave-station",
+      "id": "13th-ave",
       "systemId": "rtd-denver",
       "gtfsId": "34681",
       "name": "13th Ave Station",
@@ -4680,7 +4680,7 @@
       "description": "13th Ave Station serves Aurora and is planned to be the center of a future transit-oriented development."
     },
     {
-      "id": "fitzsimons-station",
+      "id": "fitzsimons",
       "systemId": "rtd-denver",
       "gtfsId": "34683",
       "name": "Fitzsimons Station",
@@ -4706,7 +4706,7 @@
       "description": "Fitzsimons Station serves the University of Colorado Anschutz Medical Campus. It retains the name of the former Fitzsimons Army Medical Center."
     },
     {
-      "id": "25th-welton-station",
+      "id": "25th-welton",
       "systemId": "rtd-denver",
       "name": "25th & Welton Station",
       "lines": ["l-line"],
@@ -4719,7 +4719,7 @@
       "description": "25th & Welton Station is a light rail station in downtown Denver, east of the Downtown loop."
     },
     {
-      "id": "20th-welton-station",
+      "id": "20th-welton",
       "systemId": "rtd-denver",
       "name": "20th & Welton Station",
       "lines": ["l-line"],
@@ -4732,7 +4732,7 @@
       "description": "20th & Welton Station is a light rail station in downtown Denver, east of the Downtown loop."
     },
     {
-      "id": "27th-welton-station",
+      "id": "27th-welton",
       "systemId": "rtd-denver",
       "name": "27th & Welton Station",
       "lines": ["l-line"],
@@ -4745,7 +4745,7 @@
       "description": "27th & Welton Station is a light rail station in downtown Denver, east of the Downtown loop."
     },
     {
-      "id": "lone-tree-city-center-station",
+      "id": "lone-tree-city-center",
       "systemId": "rtd-denver",
       "gtfsId": "35244",
       "name": "Lone Tree City Center Station",
