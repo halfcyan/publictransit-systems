@@ -167,7 +167,7 @@ function buildLineRefMap(lines: LineDefinition[]): Map<string, string> {
 
 async function ensureGtfs(
   projectRoot: string,
-  args: ReturnType<typeof parseArgs>,
+  args: ReturnType<typeof parseArgs>
 ): Promise<string> {
   if (args.gtfsDir) return path.resolve(projectRoot, args.gtfsDir);
 
@@ -177,7 +177,7 @@ async function ensureGtfs(
 
   if (args.skipDownload) {
     throw new Error(
-      `GTFS files are missing from ${cacheDir}; remove --skip-download or provide --gtfs-dir.`,
+      `GTFS files are missing from ${cacheDir}; remove --skip-download or provide --gtfs-dir.`
     );
   }
 
@@ -199,7 +199,7 @@ async function ensureGtfs(
 
 function loadGtfsStations(
   gtfsDir: string,
-  lineRefMap: Map<string, string>,
+  lineRefMap: Map<string, string>
 ): { stations: Station[]; railRoutes: Array<{ id: string; shortName: string; longName: string }> } {
   const routes = readCsv(path.join(gtfsDir, "routes.txt"));
   const routeIds = new Map<string, string>();
@@ -297,7 +297,7 @@ function loadGtfsStations(
 function preserveSuspendedLineAssignments(
   stations: Station[],
   curatedStations: CuratedStation[],
-  suspendedLineIds: Set<string>,
+  suspendedLineIds: Set<string>
 ): string[] {
   const stationsByName = new Map(stations.map((station) => [normalizeName(station.name), station]));
   const preserved = new Set<string>();
@@ -349,7 +349,7 @@ function buildOverpassQuery(stations: Station[]): string {
   const nearbyQueries = stations.map(
     (station) =>
       'node[~"^(railway|public_transport|entrance|highway)$"~"^(station|halt|stop|tram_stop|stop_position|subway_entrance|yes|elevator)$"]' +
-      `(around:400,${station.coordinates.lat},${station.coordinates.lng});`,
+      `(around:400,${station.coordinates.lat},${station.coordinates.lng});`
   );
 
   return `[out:json][timeout:180];
@@ -443,7 +443,7 @@ function enrichWithOsm(stations: Station[], osm: OSMResponse): void {
       .sort(
         (a, b) =>
           distanceInMeters(station.coordinates.lat, station.coordinates.lng, a) -
-          distanceInMeters(station.coordinates.lat, station.coordinates.lng, b),
+          distanceInMeters(station.coordinates.lat, station.coordinates.lng, b)
       )[0];
 
     if (
@@ -458,7 +458,7 @@ function enrichWithOsm(stations: Station[], osm: OSMResponse): void {
 
     const stationEntrances = entrances
       .filter(
-        (node) => distanceInMeters(station.coordinates.lat, station.coordinates.lng, node) <= 300,
+        (node) => distanceInMeters(station.coordinates.lat, station.coordinates.lng, node) <= 300
       )
       .map((node, index) => ({
         id: `osm-${node.id}`,
@@ -473,14 +473,14 @@ function enrichWithOsm(stations: Station[], osm: OSMResponse): void {
       station.features.includes("accessible") ||
       stationEntrances.some((entrance) => entrance.wheelchair) ||
       elevators.some(
-        (node) => distanceInMeters(station.coordinates.lat, station.coordinates.lng, node) <= 200,
+        (node) => distanceInMeters(station.coordinates.lat, station.coordinates.lng, node) <= 200
       )
     ) {
       if (!station.features.includes("accessible")) station.features.push("accessible");
     }
     if (
       elevators.some(
-        (node) => distanceInMeters(station.coordinates.lat, station.coordinates.lng, node) <= 200,
+        (node) => distanceInMeters(station.coordinates.lat, station.coordinates.lng, node) <= 200
       )
     ) {
       station.features.push("elevator");
@@ -519,23 +519,23 @@ async function main() {
   const projectRoot = path.resolve(__dirname, "..");
   const lines = (
     JSON.parse(
-      fs.readFileSync(path.join(projectRoot, "data/systems/rtd-denver/lines.json"), "utf8"),
+      fs.readFileSync(path.join(projectRoot, "data/systems/rtd-denver/lines.json"), "utf8")
     ) as { lines: LineDefinition[] }
   ).lines;
   const gtfsDir = await ensureGtfs(projectRoot, args);
   const { stations, railRoutes } = loadGtfsStations(gtfsDir, buildLineRefMap(lines));
   const curatedStations = (
     JSON.parse(
-      fs.readFileSync(path.join(projectRoot, "data/systems/rtd-denver/stations.json"), "utf8"),
+      fs.readFileSync(path.join(projectRoot, "data/systems/rtd-denver/stations.json"), "utf8")
     ) as { stations: CuratedStation[] }
   ).stations;
   const suspendedLineIds = new Set(
-    lines.filter((line) => line.status !== "active").map((line) => line.id),
+    lines.filter((line) => line.status !== "active").map((line) => line.id)
   );
   const preservedLines = preserveSuspendedLineAssignments(
     stations,
     curatedStations,
-    suspendedLineIds,
+    suspendedLineIds
   );
 
   if (!args.skipOsm) {
@@ -566,17 +566,17 @@ async function main() {
   console.log(
     `Suspended line assignments preserved from stations.json: ${
       preservedLines.join(", ") || "none"
-    }`,
+    }`
   );
   console.log(
     `GTFS rail routes: ${
       railRoutes
         .map((route) => `${route.shortName || "(no short name)"} [${route.id}]`)
         .join(", ") || "none"
-    }`,
+    }`
   );
   console.log(
-    `Transfer stations: ${stations.filter((station) => station.lines.length > 1).length}`,
+    `Transfer stations: ${stations.filter((station) => station.lines.length > 1).length}`
   );
 
   if (args.dryRun) {
