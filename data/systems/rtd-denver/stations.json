@@ -6,15 +6,7 @@
       "gtfsId": "33727",
       "name": "Union Station",
       "wikipedia": "en:Denver Union Station",
-      "lines": [
-        "a-line",
-        "b-line",
-        "c-line",
-        "e-line",
-        "g-line",
-        "n-line",
-        "w-line"
-      ],
+      "lines": ["a-line", "b-line", "c-line", "e-line", "g-line", "n-line", "w-line"],
       "status": "active",
       "coordinates": {
         "lat": 39.754338,
