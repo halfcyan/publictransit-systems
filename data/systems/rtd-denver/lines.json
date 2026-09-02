@@ -51,7 +51,10 @@
       "opened": "1994-10-07",
       "status": "under-construction",
       "termini": ["Littleton-Mineral Station"],
-      "topology": { "type": "lollipop", "loopStation": "18th & California Station" },
+      "topology": {
+        "type": "lollipop",
+        "loopStation": "18th & California Station"
+      },
       "length": 5.3,
       "stationCount": 14,
       "description": "The D Line, formerly known as Route 101, was the first and only line in the RTD rail system until 2002. Before its temporary suspension for the Downtown Rail Reconstruction Project, it operated between the 18th Street stations and Littleton-Mineral Station."
@@ -93,7 +96,10 @@
       "opened": "2006-11-17",
       "status": "under-construction",
       "termini": ["Florida Station"],
-      "topology": { "type": "lollipop", "loopStation": "18th & California Station" },
+      "topology": {
+        "type": "lollipop",
+        "loopStation": "18th & California Station"
+      },
       "length": 19,
       "stationCount": 20,
       "description": "The H Line was added through completion of the Southeast Corridor and extended to Florida Station in 2017. It is temporarily suspended during the Downtown Rail Reconstruction Project."
@@ -107,7 +113,10 @@
       "opened": "2018-01-14",
       "status": "under-construction",
       "termini": ["30th & Downing Station"],
-      "topology": { "type": "lollipop", "loopStation": "18th & California Station" },
+      "topology": {
+        "type": "lollipop",
+        "loopStation": "18th & California Station"
+      },
       "length": 5.3,
       "stationCount": 10,
       "description": "The L Line is temporarily suspended during the Downtown Rail Reconstruction Project. When operating, it runs through downtown Denver in a loop from 30th & Downing via Welton Street, 19th Street, Stout Street, and California Street."
@@ -162,7 +171,10 @@
       "colorHex": "#0091B3",
       "opened": "2013-04-26",
       "status": "active",
-      "termini": ["Union Station", "Jefferson County Government Center/Golden Station"],
+      "termini": [
+        "Union Station",
+        "Jefferson County Government Center/Golden Station"
+      ],
       "topology": { "type": "linear" },
       "length": 12.1,
       "stationCount": 15,

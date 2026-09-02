@@ -5,7 +5,16 @@
       "systemId": "rtd-denver",
       "gtfsId": "33727",
       "name": "Union Station",
-      "lines": ["a-line", "b-line", "c-line", "e-line", "g-line", "n-line", "w-line"],
+      "wikipedia": "en:Denver Union Station",
+      "lines": [
+        "a-line",
+        "b-line",
+        "c-line",
+        "e-line",
+        "g-line",
+        "n-line",
+        "w-line"
+      ],
       "status": "active",
       "coordinates": {
         "lat": 39.754338,
@@ -1155,7 +1164,8 @@
       "id": "denver-airport",
       "systemId": "rtd-denver",
       "gtfsId": "34503",
-      "name": "Denver Airport Station",
+      "name": "Denver Airport",
+      "wikipedia": "en:Denver Airport station",
       "lines": ["a-line"],
       "status": "active",
       "coordinates": {
@@ -1165,7 +1175,6 @@
       "features": ["accessible", "elevator", "fare-vending"],
       "osmId": 6725337692,
       "wikidata": "Q24211058",
-      "wikipedia": "en:Denver Airport station",
       "entrances": [
         {
           "id": "osm-3254007664",
@@ -1894,7 +1903,8 @@
       "id": "peoria",
       "systemId": "rtd-denver",
       "gtfsId": "34502",
-      "name": "Peoria Station",
+      "name": "Peoria",
+      "wikipedia": "en:Peoria station",
       "lines": ["a-line", "r-line"],
       "status": "active",
       "coordinates": {
@@ -1965,7 +1975,8 @@
       "id": "i-25-broadway",
       "systemId": "rtd-denver",
       "gtfsId": "33686",
-      "name": "I-25 / Broadway Station",
+      "name": "I-25 / Broadway",
+      "wikipedia": "en:I-25 & Broadway station",
       "lines": ["c-line", "d-line", "e-line", "h-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -1980,7 +1991,8 @@
       "id": "40th-airport-gateway-park",
       "systemId": "rtd-denver",
       "gtfsId": "33740",
-      "name": "40th  / Airport - Gateway Park Station",
+      "name": "40th  / Airport - Gateway Park",
+      "wikipedia": "en:40th Ave & Airport Blvd–Gateway Park station",
       "lines": ["a-line"],
       "status": "active",
       "coordinates": {
@@ -1995,7 +2007,8 @@
       "id": "central-park",
       "systemId": "rtd-denver",
       "gtfsId": "34501",
-      "name": "Central Park Station",
+      "name": "Central Park",
+      "wikipedia": "en:Central Park station (RTD)",
       "lines": ["a-line"],
       "status": "active",
       "coordinates": {
@@ -2010,7 +2023,8 @@
       "id": "auraria-west-campus",
       "systemId": "rtd-denver",
       "gtfsId": "34112",
-      "name": "Auraria West Campus Station",
+      "name": "Auraria West Campus",
+      "wikipedia": "en:Auraria West station",
       "lines": ["c-line", "d-line", "e-line", "h-line", "w-line"],
       "status": "active",
       "coordinates": {
@@ -2188,7 +2202,8 @@
     {
       "id": "16th-california",
       "systemId": "rtd-denver",
-      "name": "16th & California Station",
+      "name": "16th & California",
+      "wikipedia": "en:16th & California and 16th & Stout stations",
       "lines": ["d-line", "h-line", "l-line"],
       "status": "active",
       "coordinates": {
@@ -2201,7 +2216,8 @@
     {
       "id": "16th-stout",
       "systemId": "rtd-denver",
-      "name": "16th & Stout Station",
+      "name": "16th & Stout",
+      "wikipedia": "en:16th & California and 16th & Stout stations",
       "lines": ["d-line", "h-line", "l-line"],
       "status": "active",
       "coordinates": {
@@ -2215,7 +2231,8 @@
       "id": "alameda",
       "systemId": "rtd-denver",
       "gtfsId": "33704",
-      "name": "Alameda Station",
+      "name": "Alameda",
+      "wikipedia": "en:Alameda station (RTD)",
       "lines": ["c-line", "d-line", "e-line", "h-line"],
       "status": "active",
       "coordinates": {
@@ -2249,7 +2266,8 @@
     {
       "id": "18th-california",
       "systemId": "rtd-denver",
-      "name": "18th & California Station",
+      "name": "18th & California",
+      "wikipedia": "en:18th & California and 18th & Stout stations",
       "lines": ["d-line", "h-line", "l-line"],
       "status": "active",
       "coordinates": {
@@ -2262,7 +2280,8 @@
     {
       "id": "18th-stout",
       "systemId": "rtd-denver",
-      "name": "18th & Stout Station",
+      "name": "18th & Stout",
+      "wikipedia": "en:18th & California and 18th & Stout stations",
       "lines": ["d-line", "h-line", "l-line"],
       "status": "active",
       "coordinates": {
@@ -2276,7 +2295,8 @@
       "id": "10th-osage",
       "systemId": "rtd-denver",
       "gtfsId": "34109",
-      "name": "10th / Osage Station",
+      "name": "10th / Osage",
+      "wikipedia": "en:10th & Osage station",
       "lines": ["c-line", "d-line", "e-line", "h-line"],
       "status": "active",
       "coordinates": {
@@ -2384,7 +2404,8 @@
       "id": "littleton-mineral",
       "systemId": "rtd-denver",
       "gtfsId": "33716",
-      "name": "Littleton-Mineral Station",
+      "name": "Littleton-Mineral",
+      "wikipedia": "en:Littleton–Mineral station",
       "lines": ["c-line", "d-line"],
       "status": "active",
       "coordinates": {
@@ -2398,7 +2419,8 @@
     {
       "id": "colfax-auraria",
       "systemId": "rtd-denver",
-      "name": "Colfax at Auraria Station",
+      "name": "Colfax at Auraria",
+      "wikipedia": "en:Colfax at Auraria station",
       "lines": ["d-line", "h-line", "l-line"],
       "status": "active",
       "coordinates": {
@@ -2412,7 +2434,8 @@
       "id": "38th-blake",
       "systemId": "rtd-denver",
       "gtfsId": "34684",
-      "name": "38th / Blake Station",
+      "name": "38th / Blake",
+      "wikipedia": "en:38th & Blake station",
       "lines": ["a-line"],
       "status": "active",
       "coordinates": {
@@ -2474,7 +2497,8 @@
       "id": "61st-pena",
       "systemId": "rtd-denver",
       "gtfsId": "34685",
-      "name": "61st / Pena Station",
+      "name": "61st / Pena",
+      "wikipedia": "en:61st & Peña station",
       "lines": ["a-line"],
       "status": "active",
       "coordinates": {
@@ -2484,14 +2508,14 @@
       "features": ["fare-vending"],
       "osmId": 6777872314,
       "wikidata": "Q24278813",
-      "wikipedia": "en:61st & Peña station",
       "description": "61st / Peña Station is the final station before Denver Airport Station and the last station in the local fare zone. Its parking is managed by Denver International Airport."
     },
     {
       "id": "40th-colorado",
       "systemId": "rtd-denver",
       "gtfsId": "34500",
-      "name": "40th / Colorado Station",
+      "name": "40th / Colorado",
+      "wikipedia": "en:40th & Colorado station",
       "lines": ["a-line"],
       "status": "active",
       "coordinates": {
@@ -2506,7 +2530,8 @@
       "id": "florida",
       "systemId": "rtd-denver",
       "gtfsId": "34679",
-      "name": "Florida Station",
+      "name": "Florida",
+      "wikipedia": "en:Florida station (RTD)",
       "lines": ["h-line", "r-line"],
       "status": "active",
       "coordinates": {
@@ -2532,7 +2557,8 @@
       "id": "arapahoe-at-village-center",
       "systemId": "rtd-denver",
       "gtfsId": "33705",
-      "name": "Arapahoe at Village Center Station",
+      "name": "Arapahoe at Village Center",
+      "wikipedia": "en:Arapahoe at Village Center station",
       "lines": ["e-line", "r-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -2558,7 +2584,8 @@
       "id": "colorado",
       "systemId": "rtd-denver",
       "gtfsId": "33708",
-      "name": "Colorado Station",
+      "name": "Colorado",
+      "wikipedia": "en:Colorado station",
       "lines": ["e-line", "h-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -2574,7 +2601,8 @@
       "id": "nine-mile",
       "systemId": "rtd-denver",
       "gtfsId": "33719",
-      "name": "Nine Mile Station",
+      "name": "Nine Mile",
+      "wikipedia": "en:Nine Mile station",
       "lines": ["h-line", "r-line"],
       "status": "active",
       "coordinates": {
@@ -2601,7 +2629,8 @@
       "id": "lakewood-wadsworth",
       "systemId": "rtd-denver",
       "gtfsId": "34237",
-      "name": "Lakewood-Wadsworth Station",
+      "name": "Lakewood-Wadsworth",
+      "wikipedia": "en:Lakewood–Wadsworth station",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -2655,6 +2684,7 @@
       "systemId": "rtd-denver",
       "gtfsId": "35367",
       "name": "Eastlake / 124th Ave",
+      "wikipedia": "en:Eastlake/124th station",
       "lines": ["n-line"],
       "status": "active",
       "coordinates": {
@@ -2668,7 +2698,8 @@
       "id": "southmoor",
       "systemId": "rtd-denver",
       "gtfsId": "33721",
-      "name": "Southmoor Station",
+      "name": "Southmoor",
+      "wikipedia": "en:Southmoor station",
       "lines": ["e-line", "h-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -2695,7 +2726,8 @@
       "id": "decatur-federal",
       "systemId": "rtd-denver",
       "gtfsId": "34232",
-      "name": "Decatur-Federal Station",
+      "name": "Decatur-Federal",
+      "wikipedia": "en:Decatur–Federal station",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -2756,7 +2788,8 @@
     {
       "id": "theatre-district-convention-center",
       "systemId": "rtd-denver",
-      "name": "Theatre District-Convention Center Station",
+      "name": "Theatre District-Convention Center",
+      "wikipedia": "en:Theatre District–Convention Center station",
       "lines": ["d-line", "h-line", "l-line"],
       "status": "active",
       "coordinates": {
@@ -2770,7 +2803,8 @@
       "id": "englewood",
       "systemId": "rtd-denver",
       "gtfsId": "33712",
-      "name": "Englewood Station",
+      "name": "Englewood",
+      "wikipedia": "en:Englewood station (RTD)",
       "lines": ["c-line", "d-line"],
       "status": "active",
       "coordinates": {
@@ -2797,7 +2831,8 @@
       "id": "belleview",
       "systemId": "rtd-denver",
       "gtfsId": "33706",
-      "name": "Belleview Station",
+      "name": "Belleview",
+      "wikipedia": "en:Belleview station",
       "lines": ["e-line", "r-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -2813,7 +2848,8 @@
       "id": "federal-center",
       "systemId": "rtd-denver",
       "gtfsId": "33741",
-      "name": "Federal Center Station",
+      "name": "Federal Center",
+      "wikipedia": "en:Federal Center station (RTD)",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -2975,7 +3011,8 @@
       "id": "lincoln",
       "systemId": "rtd-denver",
       "gtfsId": "33714",
-      "name": "Lincoln Station",
+      "name": "Lincoln",
+      "wikipedia": "en:Lincoln station (RTD)",
       "lines": ["e-line", "r-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -3019,7 +3056,8 @@
       "id": "jefferson-co-government-golden",
       "systemId": "rtd-denver",
       "gtfsId": "34241",
-      "name": "Jefferson County Government Center/Golden Station",
+      "name": "Jefferson County Government Center/Golden",
+      "wikipedia": "en:Jefferson County Government Center–Golden station",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -3054,6 +3092,7 @@
       "systemId": "rtd-denver",
       "gtfsId": "33833",
       "name": "Olde Town Arvada",
+      "wikipedia": "en:Olde Town Arvada station",
       "lines": ["g-line"],
       "status": "active",
       "coordinates": {
@@ -3106,7 +3145,8 @@
       "id": "ridgegate-parkway",
       "systemId": "rtd-denver",
       "gtfsId": "35245",
-      "name": "Ridgegate Parkway Station",
+      "name": "Ridgegate Parkway",
+      "wikipedia": "en:RidgeGate Parkway station",
       "lines": ["e-line", "r-line"],
       "status": "active",
       "coordinates": {
@@ -3195,7 +3235,8 @@
       "id": "littleton-downtown",
       "systemId": "rtd-denver",
       "gtfsId": "33715",
-      "name": "Littleton-Downtown Station",
+      "name": "Littleton-Downtown",
+      "wikipedia": "en:Littleton–Downtown station",
       "lines": ["c-line", "d-line"],
       "status": "active",
       "coordinates": {
@@ -3221,7 +3262,8 @@
       "id": "sheridan",
       "systemId": "rtd-denver",
       "gtfsId": "34235",
-      "name": "Sheridan Station",
+      "name": "Sheridan",
+      "wikipedia": "en:Sheridan station (RTD)",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -3265,7 +3307,8 @@
       "id": "oak",
       "systemId": "rtd-denver",
       "gtfsId": "34239",
-      "name": "Oak Station",
+      "name": "Oak",
+      "wikipedia": "en:Oak station (RTD)",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -3300,7 +3343,8 @@
       "id": "university-of-denver",
       "systemId": "rtd-denver",
       "gtfsId": "33722",
-      "name": "University of Denver Station",
+      "name": "University of Denver",
+      "wikipedia": "en:University of Denver station",
       "lines": ["e-line", "h-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -3362,7 +3406,8 @@
       "id": "ball-arena-elitch-gardens",
       "systemId": "rtd-denver",
       "gtfsId": "34110",
-      "name": "Ball Arena / Elitch Gardens Station",
+      "name": "Ball Arena / Elitch Gardens",
+      "wikipedia": "en:Ball Arena–Elitch Gardens station",
       "lines": ["c-line", "e-line", "w-line"],
       "status": "active",
       "coordinates": {
@@ -3506,7 +3551,8 @@
       "id": "thornton-crossroads-104th-ave",
       "systemId": "rtd-denver",
       "gtfsId": "35365",
-      "name": "Thornton Crossroads / 104th Ave Station",
+      "name": "Thornton Crossroads / 104th Ave",
+      "wikipedia": "en:Thornton Crossroads/104th station",
       "lines": ["n-line"],
       "status": "active",
       "coordinates": {
@@ -3520,7 +3566,8 @@
       "id": "iliff",
       "systemId": "rtd-denver",
       "gtfsId": "34677",
-      "name": "Iliff Station",
+      "name": "Iliff",
+      "wikipedia": "en:Iliff station",
       "lines": ["h-line", "r-line"],
       "status": "active",
       "coordinates": {
@@ -3535,7 +3582,8 @@
       "id": "county-line",
       "systemId": "rtd-denver",
       "gtfsId": "33709",
-      "name": "County Line Station",
+      "name": "County Line",
+      "wikipedia": "en:County Line station (RTD)",
       "lines": ["e-line", "r-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -3550,7 +3598,8 @@
       "id": "aurora-metro-center",
       "systemId": "rtd-denver",
       "gtfsId": "34678",
-      "name": "Aurora Metro Center Station",
+      "name": "Aurora Metro Center",
+      "wikipedia": "en:Aurora Metro Center station",
       "lines": ["r-line"],
       "status": "active",
       "coordinates": {
@@ -3774,7 +3823,8 @@
       "id": "lamar",
       "systemId": "rtd-denver",
       "gtfsId": "34236",
-      "name": "Lamar Station",
+      "name": "Lamar",
+      "wikipedia": "en:Lamar station (RTD)",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -3810,7 +3860,8 @@
       "id": "dry-creek",
       "systemId": "rtd-denver",
       "gtfsId": "33711",
-      "name": "Dry Creek Station",
+      "name": "Dry Creek",
+      "wikipedia": "en:Dry Creek station",
       "lines": ["e-line", "r-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -3826,6 +3877,7 @@
       "systemId": "rtd-denver",
       "gtfsId": "34111",
       "name": "Empower Field at Mile High",
+      "wikipedia": "en:Empower Field at Mile High station",
       "lines": ["c-line", "e-line", "w-line"],
       "status": "active",
       "coordinates": {
@@ -4004,7 +4056,8 @@
       "id": "wheat-ridge-ward-road",
       "systemId": "rtd-denver",
       "gtfsId": "34504",
-      "name": "Wheat Ridge / Ward Station",
+      "name": "Wheat Ridge / Ward",
+      "wikipedia": "en:Wheat Ridge/Ward station",
       "lines": ["g-line"],
       "status": "active",
       "coordinates": {
@@ -4019,7 +4072,8 @@
       "id": "garrison",
       "systemId": "rtd-denver",
       "gtfsId": "34238",
-      "name": "Garrison Station",
+      "name": "Garrison",
+      "wikipedia": "en:Garrison station (RTD)",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -4035,7 +4089,8 @@
       "id": "louisiana-pearl",
       "systemId": "rtd-denver",
       "gtfsId": "33725",
-      "name": "Louisiana-Pearl Station",
+      "name": "Louisiana-Pearl",
+      "wikipedia": "en:Louisiana–Pearl station",
       "lines": ["e-line", "h-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -4050,7 +4105,8 @@
       "id": "knox",
       "systemId": "rtd-denver",
       "gtfsId": "34233",
-      "name": "Knox Station",
+      "name": "Knox",
+      "wikipedia": "en:Knox station",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -4095,7 +4151,8 @@
       "id": "colfax",
       "systemId": "rtd-denver",
       "gtfsId": "34682",
-      "name": "Colfax Station",
+      "name": "Colfax",
+      "wikipedia": "en:Colfax station (RTD)",
       "lines": ["r-line"],
       "status": "active",
       "coordinates": {
@@ -4184,7 +4241,8 @@
       "id": "evans",
       "systemId": "rtd-denver",
       "gtfsId": "33713",
-      "name": "Evans Station",
+      "name": "Evans",
+      "wikipedia": "en:Evans station (RTD)",
       "lines": ["c-line", "e-line"],
       "status": "active",
       "coordinates": {
@@ -4199,7 +4257,8 @@
       "id": "original-thornton-88th-ave",
       "systemId": "rtd-denver",
       "gtfsId": "35364",
-      "name": "Original Thornton / 88th Ave Station",
+      "name": "Original Thornton / 88th Ave",
+      "wikipedia": "en:Original Thornton/88th station",
       "lines": ["n-line"],
       "status": "active",
       "coordinates": {
@@ -4213,7 +4272,8 @@
       "id": "commerce-city-72nd-ave",
       "systemId": "rtd-denver",
       "gtfsId": "35363",
-      "name": "Commerce City / 72nd Ave Station",
+      "name": "Commerce City / 72nd Ave",
+      "wikipedia": "en:Commerce City/72nd station",
       "lines": ["n-line"],
       "status": "active",
       "coordinates": {
@@ -4227,7 +4287,8 @@
       "id": "northglenn-112th-ave",
       "systemId": "rtd-denver",
       "gtfsId": "35366",
-      "name": "Northglenn / 112th Station",
+      "name": "Northglenn / 112th",
+      "wikipedia": "en:Northglenn/112th station",
       "lines": ["n-line"],
       "status": "active",
       "coordinates": {
@@ -4241,7 +4302,8 @@
       "id": "dayton",
       "systemId": "rtd-denver",
       "gtfsId": "33710",
-      "name": "Dayton Station",
+      "name": "Dayton",
+      "wikipedia": "en:Dayton station (RTD)",
       "lines": ["h-line", "r-line"],
       "status": "active",
       "coordinates": {
@@ -4256,7 +4318,8 @@
       "id": "arvada-ridge",
       "systemId": "rtd-denver",
       "gtfsId": "34505",
-      "name": "Arvada Ridge Station",
+      "name": "Arvada Ridge",
+      "wikipedia": "en:Arvada Ridge station",
       "lines": ["g-line"],
       "status": "active",
       "coordinates": {
@@ -4271,7 +4334,8 @@
       "id": "41st-fox",
       "systemId": "rtd-denver",
       "gtfsId": "34548",
-      "name": "41st / Fox Station",
+      "name": "41st / Fox",
+      "wikipedia": "en:41st & Fox station",
       "lines": ["b-line", "g-line"],
       "status": "active",
       "coordinates": {
@@ -4315,7 +4379,8 @@
       "id": "yale",
       "systemId": "rtd-denver",
       "gtfsId": "33723",
-      "name": "Yale Station",
+      "name": "Yale",
+      "wikipedia": "en:Yale station (RTD)",
       "lines": ["e-line", "h-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -4368,7 +4433,8 @@
       "id": "orchard",
       "systemId": "rtd-denver",
       "gtfsId": "33720",
-      "name": "Orchard Station",
+      "name": "Orchard",
+      "wikipedia": "en:Orchard station (RTD)",
       "lines": ["e-line", "h-line", "r-line", "t-line"],
       "status": "active",
       "coordinates": {
@@ -4384,7 +4450,8 @@
       "id": "60th-sheridan-arvada-gold-strike",
       "systemId": "rtd-denver",
       "gtfsId": "34506",
-      "name": "60th / Sheridan - Arvada Gold Strike Station",
+      "name": "60th / Sheridan - Arvada Gold Strike",
+      "wikipedia": "en:List of Denver RTD rail stations",
       "lines": ["g-line"],
       "status": "active",
       "coordinates": {
@@ -4399,7 +4466,8 @@
       "id": "perry",
       "systemId": "rtd-denver",
       "gtfsId": "34234",
-      "name": "Perry Station",
+      "name": "Perry",
+      "wikipedia": "en:Perry station",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -4415,7 +4483,8 @@
       "id": "oxford-city-of-sheridan",
       "systemId": "rtd-denver",
       "gtfsId": "33726",
-      "name": "Oxford-City of Sheridan Station",
+      "name": "Oxford-City of Sheridan",
+      "wikipedia": "en:Oxford–City of Sheridan station",
       "lines": ["c-line", "d-line"],
       "status": "active",
       "coordinates": {
@@ -4429,7 +4498,8 @@
     {
       "id": "30th-downing",
       "systemId": "rtd-denver",
-      "name": "30th & Downing Station",
+      "name": "30th & Downing",
+      "wikipedia": "en:30th & Downing station",
       "lines": ["l-line"],
       "status": "active",
       "coordinates": {
@@ -4444,6 +4514,7 @@
       "systemId": "rtd-denver",
       "gtfsId": "35362",
       "name": "48th Ave/Brighton Blvd @ Nat`L Western Ctr",
+      "wikipedia": "en:48th & Brighton/National Western Center station",
       "lines": ["n-line"],
       "status": "active",
       "coordinates": {
@@ -4457,7 +4528,8 @@
       "id": "westminster",
       "systemId": "rtd-denver",
       "gtfsId": "34549",
-      "name": "Westminster Station",
+      "name": "Westminster",
+      "wikipedia": "en:Westminster station (RTD)",
       "lines": ["b-line"],
       "status": "active",
       "coordinates": {
@@ -4483,7 +4555,8 @@
       "id": "clear-creek-federal",
       "systemId": "rtd-denver",
       "gtfsId": "34507",
-      "name": "Clear Creek / Federal Station",
+      "name": "Clear Creek / Federal",
+      "wikipedia": "en:Denver Federal Center",
       "lines": ["g-line"],
       "status": "active",
       "coordinates": {
@@ -4498,7 +4571,8 @@
       "id": "2nd-ave-abilene",
       "systemId": "rtd-denver",
       "gtfsId": "34680",
-      "name": "2nd Ave & Abilene Station",
+      "name": "2nd Ave & Abilene",
+      "wikipedia": "en:2nd Avenue & Abilene station",
       "lines": ["r-line"],
       "status": "active",
       "coordinates": {
@@ -4604,7 +4678,8 @@
       "id": "sky-ridge",
       "systemId": "rtd-denver",
       "gtfsId": "35243",
-      "name": "Sky Ridge Station",
+      "name": "Sky Ridge",
+      "wikipedia": "en:Sky Ridge station",
       "lines": ["e-line", "r-line"],
       "status": "active",
       "coordinates": {
@@ -4639,7 +4714,8 @@
       "id": "pecos-junction",
       "systemId": "rtd-denver",
       "gtfsId": "34508",
-      "name": "Pecos Junction Station",
+      "name": "Pecos Junction",
+      "wikipedia": "en:Pecos Junction station",
       "lines": ["b-line", "g-line"],
       "status": "active",
       "coordinates": {
@@ -4654,7 +4730,8 @@
       "id": "red-rocks-college",
       "systemId": "rtd-denver",
       "gtfsId": "34240",
-      "name": "Red Rocks College Station",
+      "name": "Red Rocks College",
+      "wikipedia": "en:Red Rocks College station",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -4669,7 +4746,8 @@
       "id": "13th-ave",
       "systemId": "rtd-denver",
       "gtfsId": "34681",
-      "name": "13th Ave Station",
+      "name": "13th Ave",
+      "wikipedia": "en:13th Avenue station (RTD)",
       "lines": ["r-line"],
       "status": "active",
       "coordinates": {
@@ -4683,7 +4761,8 @@
       "id": "fitzsimons",
       "systemId": "rtd-denver",
       "gtfsId": "34683",
-      "name": "Fitzsimons Station",
+      "name": "Fitzsimons",
+      "wikipedia": "en:Fitzsimons station",
       "lines": ["r-line"],
       "status": "active",
       "coordinates": {
@@ -4708,7 +4787,8 @@
     {
       "id": "25th-welton",
       "systemId": "rtd-denver",
-      "name": "25th & Welton Station",
+      "name": "25th & Welton",
+      "wikipedia": "en:25th & Welton station",
       "lines": ["l-line"],
       "status": "active",
       "coordinates": {
@@ -4721,7 +4801,8 @@
     {
       "id": "20th-welton",
       "systemId": "rtd-denver",
-      "name": "20th & Welton Station",
+      "name": "20th & Welton",
+      "wikipedia": "en:20th & Welton station",
       "lines": ["l-line"],
       "status": "active",
       "coordinates": {
@@ -4734,7 +4815,8 @@
     {
       "id": "27th-welton",
       "systemId": "rtd-denver",
-      "name": "27th & Welton Station",
+      "name": "27th & Welton",
+      "wikipedia": "en:27th & Welton station",
       "lines": ["l-line"],
       "status": "active",
       "coordinates": {
@@ -4748,7 +4830,8 @@
       "id": "lone-tree-city-center",
       "systemId": "rtd-denver",
       "gtfsId": "35244",
-      "name": "Lone Tree City Center Station",
+      "name": "Lone Tree City Center",
+      "wikipedia": "en:List of Denver RTD rail stations",
       "lines": ["e-line", "r-line"],
       "status": "active",
       "coordinates": {
